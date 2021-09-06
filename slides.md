@@ -93,8 +93,7 @@ image: https://source.unsplash.com/collection/94734566/1920x1080
 # Code
 
 Use code snippets and get the highlighting directly![^1]
-
-```ts {all|2|1-6|9|all}
+ts {all|2|1-6|9|all}
 interface User {
   id: number
   firstName: string
@@ -104,11 +103,9 @@ interface User {
 
 function updateUser(id: number, update: User) {
   const user = getUser(id)
-  const newUser = {...user, ...update}  
+  const newUser = {...user, ...update}
   saveUser(id, newUser)
 }
-```
-
 <arrow v-click="3" x1="400" y1="420" x2="230" y2="330" color="#564" width="3" arrowSize="1" />
 
 [^1]: [Learn More](https://sli.dev/guide/syntax.html#line-highlighting)
@@ -131,6 +128,28 @@ function updateUser(id: number, update: User) {
 
 1. 在瀏覽器搜尋 Git
 2. 下載後打開檔案 
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+</style>
+
+---
+
+# 新增 Git repository
+
+1. 進入 windows cmd 或 linux terminal  
+2. 建立並進到一個空的資料夾內  (mkdir & cd)
+3. 輸入 git init  
+
+這樣你的 Git repository 就已經建立好了  
 
 <style>
 h1 {
