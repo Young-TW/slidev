@@ -172,6 +172,8 @@ Github 比起終端機內的 git 更加好理解
 在 push 之前我們要先有一個雲端的 Git 服務  
 並且設定好 push 的目的地  
 
+![](https://cdn.discordapp.com/attachments/878632791728869401/884692399417348116/d6528811.png)
+
 <style>
 h1 {
   background-color: #2B90B6;
@@ -182,7 +184,12 @@ h1 {
   -webkit-text-fill-color: transparent; 
   -moz-text-fill-color: transparent;
 }
+  
+img{
+  width:600px;
+}
 </style>
+
 
 ---
 
