@@ -67,6 +67,8 @@ h1 {
 1. 在瀏覽器搜尋 Git
 2. 下載後打開檔案 
 
+![](https://cdn.discordapp.com/attachments/711916752551804989/884681694693707846/0633dc249b85316.png)
+
 <style>
 h1 {
   background-color: #2B90B6;
@@ -77,7 +79,12 @@ h1 {
   -webkit-text-fill-color: transparent; 
   -moz-text-fill-color: transparent;
 }
+img{
+  width:600px;
+  float:right;
+}
 </style>
+
 
 ---
 
@@ -89,6 +96,10 @@ h1 {
 
 這樣你的 Git repository 就已經建立好了  
 
+```sh
+git init
+```
+
 <style>
 h1 {
   background-color: #2B90B6;
@@ -100,6 +111,7 @@ h1 {
   -moz-text-fill-color: transparent;
 }
 </style>
+
 
 ---
 
@@ -108,6 +120,10 @@ h1 {
 如果要把當前的目錄底下所有檔案  
 都加入版本控制的話可以使用  
 
+```sh
+git add .
+```
+
 <style>
 h1 {
   background-color: #2B90B6;
@@ -119,6 +135,7 @@ h1 {
   -moz-text-fill-color: transparent;
 }
 </style>
+
 
 ---
 
@@ -127,6 +144,10 @@ h1 {
 commit 可以把寫好並且有被添加(git add)  
 到版本管理的程式加到 Git 內  
 
+```sh
+git commit -m "這是一個commit"
+```
+
 <style>
 h1 {
   background-color: #2B90B6;
@@ -138,6 +159,7 @@ h1 {
   -moz-text-fill-color: transparent;
 }
 </style>
+
 
 ---
 
@@ -212,7 +234,11 @@ h1 {
 
 # Git remote add
 
-首先要把本機的 repository 連結到雲端的 Github 庫  
+把本機的 repository 連結到雲端的 Github 庫  
+
+```sh
+git remote add [遠端庫簡稱 可以自己取] [Github上的連結]
+```
 
 <style>
 h1 {
@@ -226,6 +252,7 @@ h1 {
 }
 </style>
 
+
 ---
 
 # Git push
@@ -237,6 +264,62 @@ main 是預設的分支
 有關 Github 分支的用法可以上網查  
 Github branch  
 這邊就不贅述  
+
+```sh
+git push -u [遠端庫簡稱] main
+```
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+</style>
+---
+
+# 新增一個檔案後再 Push 到 Github 一次
+
+前面已經把我們第一個 commit push 到 Github 上的儲存庫了  
+那之後我們變動檔案完要再 Push 就不會那麼麻煩了  
+只剩下三個步驟  
+
+```sh
+git add .
+
+git commit -m "這是一個commit"
+
+git push
+```
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+</style>
+
+
+---
+
+# Git ignore
+
+如果我們有些檔案不想推到 Github 上的話  
+例如編譯好的 exe 檔案  
+我們可以新增一個檔案取名叫`.gitignore`  
+
+![](https://i.imgur.com/nJDLmm9.png)
+
+然後開啟它以後寫上`*.exe`  
 
 <style>
 h1 {
@@ -259,6 +342,8 @@ h1 {
 只要進到 Discord 伺服器留下自己的 Github 使用者名稱  
 就會邀請你加入 Github 組織  
 
+![](https://cdn.discordapp.com/attachments/878632791728869401/884689392323678239/JH1ZhmiAgFEFOxqzQPI1SourjeAiIJdrXkAuVrFxfUGEFGwqzUPIFeruLjeACIKdrXmAeRqFRfXxYfz8dJXtW4QAAAABJRU5ErkJ.png)
+
 <style>
 h1 {
   background-color: #2B90B6;
@@ -268,5 +353,9 @@ h1 {
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent; 
   -moz-text-fill-color: transparent;
+}
+  
+img{
+  width: 300px
 }
 </style>
