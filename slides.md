@@ -85,6 +85,66 @@ img{
 }
 </style>
 
+---
+
+# Git 安裝時更改的地方
+
+前面不需要做更改  
+到 `Configuring the terminal...` 時  
+選 `Use Windows' default console window`  
+然後就可以按下一步後安裝了  
+
+![](https://media.discordapp.net/attachments/711916752551804989/885165072958226442/unknown.png)
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+img{
+  height: 300px;
+}
+</style>
+
+
+---
+layout: image-right
+image: https://cdn.discordapp.com/attachments/711916752551804989/885169823951241276/unknown.png
+---
+
+
+# 打開終端機確認
+# Git 安裝成功
+
+1. 使用 `win + R` 輸入 cmd 開啟 Windows 終端機
+2. 輸入 `git` 確認 Git 成功安裝
+
+如果成功安裝好的話終端機會列出  
+可用的 Git 指令列表  
+再來就可以開始建立儲存庫了  
+
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+img{
+  overflow: hidden;
+}
+</style>
+
 
 ---
 
@@ -112,10 +172,16 @@ h1 {
 }
 </style>
 
-
 ---
 
 # Git add
+
+將檔案加入版本控制追蹤名單  
+使用方法:  
+
+```sh
+git add [檔案名稱]
+```
 
 如果要把當前的目錄底下所有檔案  
 都加入版本控制的話可以使用  
