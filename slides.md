@@ -36,6 +36,8 @@ info: |
 Git 是一種用來管理軟體版本的工具  
 以下會介紹 Git 和 Github 的使用方法  
 
+![](https://cdn.discordapp.com/attachments/711916752551804989/884681694693707846/0633dc249b85316.png)
+
 <!-- <Youtube id='e7uqBfLZNvA' /> -->
 
 <!-- <div class="m-6 flex gap-2">
@@ -58,7 +60,12 @@ h1 {
   -webkit-text-fill-color: transparent; 
   -moz-text-fill-color: transparent;
 }
+img{
+  width:600px;
+  float:right;
+}
 </style>
+
 
 ---
 
@@ -250,7 +257,7 @@ h1 {
   -webkit-text-fill-color: transparent; 
   -moz-text-fill-color: transparent;
 }
-  
+
 img{
   width:600px;
 }
