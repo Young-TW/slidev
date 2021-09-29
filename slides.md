@@ -415,6 +415,55 @@ h1 {
 
 ---
 
+# Git pull
+
+如果同時有多個裝置在同一個遠端庫作業  
+會有其中一邊push完另一邊要跟上  
+所以需要將遠端庫拉下來  
+就會用到 Pull  
+
+```sh
+git pull
+```
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+</style>
+
+---
+
+# Git clone
+
+Git clone 可以直接下載一份完整的儲存庫下來  
+像是在維護別人寫的code  
+或是換電腦工作時都會用到  
+
+```sh
+git clone [url]
+```
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+</style>
+
+---
+
 # 加入我們的 Github organization
 
 我們社團有自己的 Github 組織  
