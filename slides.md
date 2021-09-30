@@ -491,6 +491,25 @@ h1 {
 
 ---
 
+# 使用 Github Desktop
+# clone 剛剛的 repo 下來
+
+以下由講師示範  
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+</style>
+
+---
+
 # Git branch
 
 Git 有分支的功能  
@@ -510,15 +529,19 @@ h1 {
 </style>
 
 ---
+layout: image-right
+image: https://cdn.discordapp.com/attachments/878632791728869401/884689392323678239/JH1ZhmiAgFEFOxqzQPI1SourjeAiIJdrXkAuVrFxfUGEFGwqzUPIFeruLjeACIKdrXmAeRqFRfXxYfz8dJXtW4QAAAABJRU5ErkJ.png
+---
 
-# 加入我們的 Github organization
+# 加入我們的 
+# Github organization
 
 我們社團有自己的 Github 組織  
 歡迎各位加入  
-只要進到 Discord 伺服器留下自己的 Github 使用者名稱  
-就會邀請你加入 Github 組織  
 
-![](https://cdn.discordapp.com/attachments/878632791728869401/884689392323678239/JH1ZhmiAgFEFOxqzQPI1SourjeAiIJdrXkAuVrFxfUGEFGwqzUPIFeruLjeACIKdrXmAeRqFRfXxYfz8dJXtW4QAAAABJRU5ErkJ.png)
+只要進到 Discord 伺服器  
+留下自己的 Github 使用者名稱  
+就會邀請你加入 Github 組織  
 
 <style>
 h1 {
