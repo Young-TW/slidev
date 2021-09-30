@@ -340,10 +340,10 @@ h1 {
 最後我們終於要 Push 到 Github 上了  
 首先先把剛剛的遠端庫簡稱設定到 Github 的 main 分支上  
 
-main 是預設的分支  
-有關 Github 分支的用法可以上網查  
-Github branch  
-這邊就不贅述  
+main 是預設的分支
+分支的用法後面會加以介紹
+
+-u 的意思是綁定要 push 到的分支
 
 ```sh
 git push -u [遠端庫簡稱] main
@@ -360,6 +360,8 @@ h1 {
   -moz-text-fill-color: transparent;
 }
 </style>
+
+
 ---
 
 # 新增一個檔案後再 Push 到 Github 一次
@@ -418,7 +420,7 @@ h1 {
 # Git pull
 
 如果同時有多個裝置在同一個遠端庫作業  
-會有其中一邊push完另一邊要跟上  
+會有其中一邊 Push 完另一邊要跟上  
 所以需要將遠端庫拉下來  
 就會用到 Pull  
 
@@ -438,17 +440,62 @@ h1 {
 }
 </style>
 
+
 ---
 
 # Git clone
 
 Git clone 可以直接下載一份完整的儲存庫下來  
-像是在維護別人寫的code  
+像是在維護別人寫的 Code  
 或是換電腦工作時都會用到  
 
 ```sh
 git clone [url]
 ```
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+</style>
+
+---
+
+# Github Desktop
+
+因為以下內容比較複雜  
+所以我們改用具有圖形介面的 Github Desktop 教學  
+
+下載網址  
+```
+https://desktop.github.com
+```
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+</style>
+
+---
+
+# Git branch
+
+Git 有分支的功能  
+分支是為了在不影響主線的情況下進行額外的開發  
+例如新增擴充功能 debug等等  
 
 <style>
 h1 {
