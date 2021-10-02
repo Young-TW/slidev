@@ -533,7 +533,7 @@ layout: image-right
 image: https://cdn.discordapp.com/attachments/878632791728869401/884689392323678239/JH1ZhmiAgFEFOxqzQPI1SourjeAiIJdrXkAuVrFxfUGEFGwqzUPIFeruLjeACIKdrXmAeRqFRfXxYfz8dJXtW4QAAAABJRU5ErkJ.png
 ---
 
-# 加入我們的 
+# 加入我們的
 # Github organization
 
 我們社團有自己的 Github 組織  
