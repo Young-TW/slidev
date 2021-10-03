@@ -16,6 +16,8 @@ info: |
   講者: Young 地點: 台南高工
 
   Learn more at [Hackmd](https://hackmd.io/@Young-/BJmY_ANoO)
+
+download: true
 ---
 
 # Git & Github 介紹
