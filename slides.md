@@ -60,10 +60,17 @@ h1 {
   -webkit-text-fill-color: transparent; 
   -moz-text-fill-color: transparent;
 }
+
 img{
   width:600px;
   float:right;
 }
+
+p {
+  font-size: 26px;
+  line-height: 36px;
+}
+
 </style>
 
 
@@ -86,9 +93,15 @@ h1 {
   -webkit-text-fill-color: transparent; 
   -moz-text-fill-color: transparent;
 }
+
 img{
   width:600px;
   float:right;
+}
+
+li {
+  font-size: 26px;
+  line-height: 36px;
 }
 </style>
 
@@ -117,6 +130,12 @@ h1 {
 img{
   height: 300px;
 }
+
+p {
+  font-size: 26px;
+  line-height: 36px;
+}
+
 </style>
 
 
@@ -132,7 +151,7 @@ image: https://cdn.discordapp.com/attachments/711916752551804989/885169823951241
 1. 使用 `win + R` 輸入 cmd 開啟 Windows 終端機
 2. 輸入 `git` 確認 Git 成功安裝
 
-如果成功安裝好的話終端機會列出  
+成功安裝好的話終端機會列出  
 可用的 Git 指令列表  
 再來就可以開始建立儲存庫了  
 
@@ -147,9 +166,16 @@ h1 {
   -webkit-text-fill-color: transparent; 
   -moz-text-fill-color: transparent;
 }
+
 img{
   overflow: hidden;
 }
+
+li,p {
+  font-size: 26px;
+  line-height: 36px;
+}
+
 </style>
 
 
@@ -177,6 +203,12 @@ h1 {
   -webkit-text-fill-color: transparent; 
   -moz-text-fill-color: transparent;
 }
+
+li,p {
+  font-size: 26px;
+  line-height: 36px;
+}
+
 </style>
 
 ---
@@ -207,6 +239,11 @@ h1 {
   -webkit-text-fill-color: transparent; 
   -moz-text-fill-color: transparent;
 }
+
+p {
+  font-size: 26px;
+  line-height: 36px;
+}
 </style>
 
 
@@ -230,6 +267,11 @@ h1 {
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent; 
   -moz-text-fill-color: transparent;
+}
+
+p {
+  font-size: 26px;
+  line-height: 36px;
 }
 </style>
 
@@ -258,6 +300,11 @@ h1 {
   -moz-text-fill-color: transparent;
 }
 
+p {
+  font-size: 26px;
+  line-height: 36px;
+}
+
 img{
   width:600px;
 }
@@ -270,7 +317,8 @@ img{
 
 直接在瀏覽器搜尋 Github  
 然後辦好一個帳號  
-這邊就先不教如何辦 Github 帳號  
+因為之前有先請各位註冊  
+這邊就先不教如何註冊 Github 帳號  
 
 <style>
 h1 {
@@ -282,6 +330,12 @@ h1 {
   -webkit-text-fill-color: transparent; 
   -moz-text-fill-color: transparent;
 }
+
+p {
+  font-size: 26px;
+  line-height: 36px;
+}
+
 </style>
 
 ---
@@ -308,6 +362,11 @@ h1 {
   -webkit-text-fill-color: transparent; 
   -moz-text-fill-color: transparent;
 }
+
+p {
+  font-size: 26px;
+  line-height: 36px;
+}
 </style>
 
 ---
@@ -329,6 +388,11 @@ h1 {
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent; 
   -moz-text-fill-color: transparent;
+}
+
+p {
+  font-size: 26px;
+  line-height: 36px;
 }
 </style>
 
@@ -359,6 +423,11 @@ h1 {
   -webkit-text-fill-color: transparent; 
   -moz-text-fill-color: transparent;
 }
+
+p {
+  font-size: 26px;
+  line-height: 36px;
+}
 </style>
 
 
@@ -388,6 +457,11 @@ h1 {
   -webkit-text-fill-color: transparent; 
   -moz-text-fill-color: transparent;
 }
+
+p {
+  font-size: 26px;
+  line-height: 36px;
+}
 </style>
 
 
@@ -412,6 +486,11 @@ h1 {
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent; 
   -moz-text-fill-color: transparent;
+}
+
+p {
+  font-size: 26px;
+  line-height: 36px;
 }
 </style>
 
@@ -438,6 +517,11 @@ h1 {
   -webkit-text-fill-color: transparent; 
   -moz-text-fill-color: transparent;
 }
+
+p {
+  font-size: 26px;
+  line-height: 36px;
+}
 </style>
 
 
@@ -463,6 +547,11 @@ h1 {
   -webkit-text-fill-color: transparent; 
   -moz-text-fill-color: transparent;
 }
+
+p {
+  font-size: 26px;
+  line-height: 36px;
+}
 </style>
 
 ---
@@ -487,6 +576,12 @@ h1 {
   -webkit-text-fill-color: transparent; 
   -moz-text-fill-color: transparent;
 }
+
+p {
+  font-size: 26px;
+  line-height: 36px;
+}
+
 </style>
 
 ---
@@ -506,6 +601,12 @@ h1 {
   -webkit-text-fill-color: transparent; 
   -moz-text-fill-color: transparent;
 }
+
+p {
+  font-size: 26px;
+  line-height: 36px;
+}
+
 </style>
 
 ---
@@ -525,6 +626,39 @@ h1 {
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent; 
   -moz-text-fill-color: transparent;
+}
+
+p {
+  font-size: 26px;
+  line-height: 36px;
+}
+
+</style>
+
+---
+
+# 新增 合併 刪除 branch
+
+以下都會由講師使用 Github Desktop 帶大家操作  
+因此段難度較高  
+請各位專心聆聽  
+有問題者可以找其他幹部  
+或等講者介紹完  
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p {
+  font-size: 26px;
+  line-height: 36px;
 }
 </style>
 
