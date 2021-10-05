@@ -206,7 +206,7 @@ h1 {
   -moz-text-fill-color: transparent;
 }
 
-li,p {
+li,p,span {
   font-size: 26px;
   line-height: 36px;
 }
@@ -242,7 +242,7 @@ h1 {
   -moz-text-fill-color: transparent;
 }
 
-p {
+p,span {
   font-size: 26px;
   line-height: 36px;
 }
@@ -271,7 +271,7 @@ h1 {
   -moz-text-fill-color: transparent;
 }
 
-p {
+p,span {
   font-size: 26px;
   line-height: 36px;
 }
@@ -392,7 +392,7 @@ h1 {
   -moz-text-fill-color: transparent;
 }
 
-p {
+p,span {
   font-size: 26px;
   line-height: 36px;
 }
@@ -426,7 +426,7 @@ h1 {
   -moz-text-fill-color: transparent;
 }
 
-p {
+p,span {
   font-size: 26px;
   line-height: 36px;
 }
@@ -460,7 +460,7 @@ h1 {
   -moz-text-fill-color: transparent;
 }
 
-p {
+p,span {
   font-size: 26px;
   line-height: 36px;
 }
@@ -520,7 +520,7 @@ h1 {
   -moz-text-fill-color: transparent;
 }
 
-p {
+p,span {
   font-size: 26px;
   line-height: 36px;
 }
@@ -550,7 +550,7 @@ h1 {
   -moz-text-fill-color: transparent;
 }
 
-p {
+p,span {
   font-size: 26px;
   line-height: 36px;
 }
@@ -579,7 +579,7 @@ h1 {
   -moz-text-fill-color: transparent;
 }
 
-p {
+p,span {
   font-size: 26px;
   line-height: 36px;
 }
@@ -604,7 +604,7 @@ h1 {
   -moz-text-fill-color: transparent;
 }
 
-p {
+p,span {
   font-size: 26px;
   line-height: 36px;
 }
@@ -665,6 +665,33 @@ p {
 </style>
 
 ---
+
+# Github cli
+
+Github cli 提供了  
+在系統內終端機內使用 Github 功能  
+```sh
+https://cli.github.com
+```
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 36px;
+}
+</style>
+
+---
 layout: image-right
 image: https://cdn.discordapp.com/attachments/878632791728869401/884689392323678239/JH1ZhmiAgFEFOxqzQPI1SourjeAiIJdrXkAuVrFxfUGEFGwqzUPIFeruLjeACIKdrXmAeRqFRfXxYfz8dJXtW4QAAAABJRU5ErkJ.png
 ---
@@ -689,8 +716,9 @@ h1 {
   -webkit-text-fill-color: transparent; 
   -moz-text-fill-color: transparent;
 }
-  
-img{
-  width: 300px
+
+p {
+  font-size: 26px;
+  line-height: 36px;
 }
 </style>
