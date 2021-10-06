@@ -619,6 +619,8 @@ Git 有分支的功能
 分支是為了在不影響主線的情況下進行額外的開發  
 例如新增擴充功能 debug等等  
 
+![](https://i.imgur.com/VAYsI1n.png)
+
 <style>
 h1 {
   background-color: #2B90B6;
@@ -690,6 +692,36 @@ p,span {
   line-height: 36px;
 }
 </style>
+
+---
+
+# 在 Github cli 上登入
+
+在 Github cli 登入自己的帳號  
+
+```sh
+gh auth login
+```
+
+選擇 Github.com
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 36px;
+}
+</style>
+
 ---
 
 # gh repo view
