@@ -373,6 +373,36 @@ p {
 
 ---
 
+# Git config --global
+
+再來有兩條要設定的指令  
+一個是 email  
+一個是 gituhb id  
+
+```sh
+git config --global user.email [你的email]
+git config --global user.name [你的github id]
+```
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 36px;
+}
+</style>
+
+---
+
 # Git remote add
 
 把本機的 repository 連結到雲端的 Github 庫  
