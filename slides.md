@@ -406,10 +406,10 @@ p,span {
 最後我們終於要 Push 到 Github 上了  
 首先先把剛剛的遠端庫簡稱設定到 Github 的 main 分支上  
 
-main 是預設的分支
-分支的用法後面會加以介紹
+main 是預設的分支  
+分支的用法後面會加以介紹  
 
--u 的意思是綁定要 push 到的分支
+-u 的意思是綁定要 push 到的分支  
 
 ```sh
 git push -u [遠端庫簡稱] main
