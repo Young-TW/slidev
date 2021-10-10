@@ -203,7 +203,8 @@ p,span {
 # HTML body
 
 HTML 檔案的 body 就是網頁所見的內容  
-由上而下 由左而右的排列  
+預設是由上而下 由左而右的排列  
+我們也可以用 CSS 來更改排列方法  
 
 ```html
 <!DOCTYPE html>
@@ -329,7 +330,7 @@ p,span {
 CSS 語法主要分為選擇器和修飾的內容  
 
 ```css
- h1 { /* selecter */
+ h1 {
     text-align: center;
     font-size: 48px;
 }
@@ -630,3 +631,34 @@ p,span {
 </style>
 
 ---
+
+# node.js
+
+node.js 讓前端工程師使用自己熟悉的 js 程式語言  
+來開發網頁的後端  
+網頁後端的工作有很多  
+例如社群網站的貼文 按讚 留言等等功能  
+都是由後端來記錄和計算  
+
+![](https://media.discordapp.net/attachments/711916752551804989/896714641969905694/nodejs-logo.png)
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 34px;
+}
+
+img {
+  height: 250px
+}
+</style>
