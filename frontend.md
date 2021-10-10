@@ -107,7 +107,41 @@ tag 的功能從連結外面的資源到頁面的物件都有
 大部分的 tag 都會有開頭和結尾  
 
 ```html
-<body> <a> <html> <h1> <p> <img> <button>
+<body></body>
+<a></a>
+<html></html>
+<h1></h1>
+<p></p>
+<button></button>
+```
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 34px;
+}
+</style>
+
+---
+
+# HTML 沒有結尾的 tag
+
+少數的 HTML tag 沒有結尾  
+通常原因是內容只有單一個  
+例如 img
+
+```html
+<img src="./html.jpg" />
 ```
 
 <style>
@@ -200,6 +234,37 @@ p,span {
 
 ---
 
+# HTML head 常用標籤介紹
+
+head 裏面最常放的幾個 tag 有：  
+
+```html
+<title> <link> <meta>
+```
+
+其中 title 顧名思義就是網頁的標題  
+link 是要連結的 CSS  
+meta 則是頁面的一些設定 例如字元編碼  
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 34px;
+}
+</style>
+
+---
+
 # HTML body
 
 HTML 檔案的 body 就是網頁所見的內容  
@@ -214,6 +279,35 @@ HTML 檔案的 body 就是網頁所見的內容
   </h1>
   <img src="./a.jpg" />
 </body>
+```
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 34px;
+}
+</style>
+
+---
+
+# HTML body 常用標籤介紹
+
+body 內會用到的標籤有非常多  
+有些一看名稱就會知道功能  
+其中 h1 到 h6 分別為最大到最小的標題  
+
+```html
+<h1> <p> <a> <img> <video> <button>
 ```
 
 <style>
@@ -612,6 +706,7 @@ img{
 JavaScript 是一種直譯的程式語言  
 可以用來寫網頁前端的功能  
 例如動畫 計數器 等等有互動性的小功能  
+因篇幅長度在此不會深入講解  
 
 <style>
 h1 {
@@ -632,7 +727,36 @@ p,span {
 
 ---
 
-# JavaScript 
+# json 格式
+
+json 格式是廣泛用於各種資料儲存  
+或是做為遊戲和應用程式等等的設定檔  
+因為檔案體積小和易讀等優點受到廣泛使用  
+
+```json
+{
+     "Name": "Young",
+     "sex": "male",
+     "age": 16,
+}
+```
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 34px;
+}
+</style>
 
 ---
 
@@ -698,11 +822,16 @@ img {
 }
 </style>
 
+
+---
+layout: image-right
+image: https://media.discordapp.net/attachments/711916752551804989/896856692032167946/R.png?width=400&height=400
 ---
 
 # React
 
 下一節社課教學內容是 React  
+講者是我們的副社小西瓜  
 敬請期待  
 
 <style>
@@ -753,4 +882,8 @@ p {
 }
 </style>
 
+---
+layout: end
+---
 
+# end
