@@ -15,7 +15,7 @@ info: |
   ## HTML CSS JavaScript
   講者: Young 地點: 台南高工
 
-  Learn more at [Hackmd]()
+  Learn more at [Hackmd](https://hackmd.io/@young-tw/ryXt4V6XF)
 
 download: true
 ---
@@ -611,7 +611,7 @@ img{
 
 JavaScript 是一種直譯的程式語言  
 可以用來寫網頁前端的功能  
-例如動畫  
+例如動畫 計數器 等等有互動性的小功能  
 
 <style>
 h1 {
@@ -629,6 +629,10 @@ p,span {
   line-height: 34px;
 }
 </style>
+
+---
+
+# JavaScript 
 
 ---
 
@@ -662,3 +666,91 @@ img {
   height: 250px
 }
 </style>
+
+---
+
+# 前端框架介紹
+
+網頁前端除了直接手寫以外  
+也有許多開發框架可以使用  
+例如 React,Vue,Angular 等等  
+
+![](https://cdn.discordapp.com/attachments/711916752551804989/896727041351774229/R.png)
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 34px;
+}
+
+img {
+  height: 300px
+}
+</style>
+
+---
+
+# React
+
+下一節社課教學內容是 React  
+敬請期待  
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 34px;
+}
+
+img {
+  height: 300px
+}
+</style>
+
+---
+
+# 感謝聆聽
+
+講者： Young 地點：台南高工  
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+  font-size: 72px;
+  line-height: 280px;
+  text-align: center;
+}
+
+p {
+  font-size: 26px;
+  line-height: 34px;
+  text-align: center;
+}
+</style>
+
+
