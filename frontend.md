@@ -73,13 +73,10 @@ HTML 全名：超文本標記語言
 
 ```html
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>title</title>
-</head>
-<body>
+<html>
+  <body>
     <h1>hello world!</h1>
-</body>
+  </body>
 </html>
 ```
 
@@ -102,19 +99,16 @@ p,span {
 
 ---
 
-# HTML 包覆型結構
+# HTML tag
 
-HTML 的結構是一層一層疊上去的  
-最常看到用來包覆其他 tag 的就是 div  
-div 可以幫網頁進行分區  
-以利後續開發  
+HTML 是由一個個的 tag 組成的  
+tag 的功能從連結外面的資源到頁面的物件都有  
+也有一些 tag 是拿來給設定值的  
+大部分的 tag 都會有開頭和結尾  
 
 ```html
-<div>
-  <h1>hello world!</h1>
-</div>
+<body> <a> <html> <h1> <p> <img> <button>
 ```
-
 
 <style>
 h1 {
@@ -133,6 +127,168 @@ p,span {
 }
 </style>
 
+---
+
+# HTML 的基礎結構
+
+最基本的 HTML 文件有三個 tag  
+
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    Young好帥
+  </body>
+</html>
+```
+
+其中第一行 <!DOCTYPE html>  
+代表對瀏覽器聲明此文件為 HTML  
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 34px;
+}
+</style>
+
+---
+
+# HTML head
+
+一份 HTML 文件內的 head 通常會用來放一些網頁內無法直接看見的內容  
+例如引入 CSS 或 JavaScirpt 檔案  
+或是一些基礎設定  
+
+```html
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML example</title>
+    <link rel="stylesheet" href="./style.css">
+</html>
+```
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 34px;
+}
+</style>
+
+---
+
+# HTML body
+
+HTML 檔案的 body 就是網頁所見的內容  
+由上而下 由左而右的排列  
+
+```html
+<!DOCTYPE html>
+<body>
+  <h1>
+    西瓜電死人了！
+  </h1>
+  <img src="./a.jpg" />
+</body>
+```
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 34px;
+}
+</style>
+
+---
+
+# HTML 包覆的概念
+
+HTML 的結構是一層一層疊上去的  
+最常看到用來包覆其他 tag 的就是 div  
+div 可以幫網頁進行分區  
+以利後續開發  
+
+```html
+<div>
+  <h1>hello world!</h1>
+</div>
+```
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 34px;
+}
+</style>
+
+---
+
+# 為什麼不只用 HTML 來寫網頁？
+
+接下來會介紹 CSS 和為何需要 CSS  
+當我們寫 HTML 一段時間後會發現  
+我們雖然能夠呼叫 HTML 的 tag 到頁面上  
+但是卻不能加以排版或更改樣式  
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 34px;
+}
+</style>
 
 ---
 
@@ -208,9 +364,9 @@ tag id class
 ```css
 h1{}
 
-# title{}
+#title{}
 
-. title{}
+.title{}
 ```
 
 <style>
@@ -228,6 +384,224 @@ p,span {
   font-size: 26px;
   line-height: 34px;
 }
+</style>
+
+---
+
+# CSS select by tag
+
+我們先來了解最基礎的 CSS 要如何知道要修飾的對象  
+先來一段 HTML 配 CSS
+
+```html
+<body>
+  <h1>
+    這是大標題
+  </h1>
+  <p>這是內文</p>
+</body>
+```
+
+```css
+h1{
+  color: red;
+}
+```
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 34px;
+}
+</style>
+
+---
+
+# CSS select by class
+
+再來如果要用 class 那就要幫 tag 加上 class  
+在 tag 的開頭使用 class=""  
+
+```html
+<body>
+  <h1 class="r">
+    這是大標題
+  </h1>
+  <p>這是內文</p>
+</body>
+```
+
+```css
+.r{
+  color: red;
+}
+```
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 34px;
+}
+</style>
+
+---
+
+# CSS select by id
+
+可以用 class 理所當然也可以用 id  
+範例如下：  
+
+```html
+<body>
+  <h1 id="r">
+    I am red.
+  </h1>
+</body>
+```
+
+```css
+#r{
+  color: red;
+}
+```
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 34px;
+}
+</style>
+
+---
+
+# 呈現的效果
+
+剛剛三種方法做出來都會像下面的圖一樣  
+
+![](https://cdn.discordapp.com/attachments/711916752551804989/896611419557072916/unknown.png)
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 34px;
+}
+</style>
+
+---
+
+# hex color
+
+十六進位的顏色  
+通常用於網頁上的按鈕和背景顏色等等  
+
+```
+#4050A0
+```
+
+有 RGB 三原色  
+分別對應到六個16進位數的值
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 34px;
+}
+
+span :nth-child(2,3){
+  color: #FF0000;
+}
+
+span :nth-child(4,5){
+  color: #00FF00;
+}
+
+span :nth-child(6,7){
+  color: #0000FF;
+}
+
+</style>
+
+---
+
+# 第三方的 CSS 的套件
+
+CSS 寫起來很容易會有重複的地方  
+所以有時候為了開發的效率和時間等等因素  
+常常會使用到 CSS 的套件  
+最常聽到的就是 Bootstrap  
+
+![](https://cdn.discordapp.com/attachments/711916752551804989/896606698054230046/bootstrap-stack.png)
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 34px;
+}
+
+img{
+  height: 300px;
+}
+
 </style>
 
 ---
