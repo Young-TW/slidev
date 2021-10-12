@@ -3,7 +3,7 @@
 theme: default
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: https://cdn.discordapp.com/attachments/755725610868932678/896131821098647572/image0.jpg
+background: https://cdn.discordapp.com/attachments/842705456413409321/883986238409932830/IMG_0262.jpg
 # apply any windi css classes to the current slide
 class: 'text-center'
 # https://sli.dev/custom/highlighters.html
@@ -12,15 +12,15 @@ highlighter: shiki
 lineNumbers: false
 # some information about the slides, markdown enabled
 info: |
-  ## HTML CSS JavaScript
+  ## Git & Github 介紹
   講者: Young 地點: 台南高工
 
-  Learn more at [Hackmd](https://hackmd.io/@young-tw/ryXt4V6XF)
+  Learn more at [Hackmd](https://hackmd.io/@young-tw/BJM_N46QY)
 
 download: true
 ---
 
-# HTML CSS JavaScript
+# Git & Github 介紹
 
 講者: Young 地點: 台南高工
 
@@ -33,12 +33,24 @@ download: true
 
 ---
 
-# 網頁前端是如何組成的
+# 使用 Git 實現版本控制
 
-網頁前端分為 HTML CSS Javascript 三種語言組成  
-注：HTML 和 CSS 並不算所謂的**程式**語言  
+Git 是一種用來管理軟體版本的工具  
+以下會介紹 Git 和 Github 的使用方法  
 
-![](https://media.discordapp.net/attachments/890148284662964284/896133132359708722/unknown.png)
+![](https://cdn.discordapp.com/attachments/711916752551804989/884681694693707846/0633dc249b85316.png)
+
+<!-- <Youtube id='e7uqBfLZNvA' /> -->
+
+<!-- <div class="m-6 flex gap-2">
+  <a href="https://github.com/" target="_blank" alt="GitHub"
+    class="text-xl icon-btn opacity-200 !border-none !hover:text-white">
+    <carbon-logo-github />
+  </a>
+</div> -->
+
+<br>
+<br>
 
 <style>
 h1 {
@@ -51,34 +63,27 @@ h1 {
   -moz-text-fill-color: transparent;
 }
 
-img {
-  width: 600px;
-} 
+img{
+  width:600px;
+  float:right;
+}
 
 p {
   font-size: 26px;
-  line-height: 34px;
+  line-height: 36px;
 }
+
 </style>
+
 
 ---
 
-# HTML 是什麼？
+# 下載和安裝 Git
 
-HTML 全名：超文本標記語言  
+1. 在瀏覽器搜尋 Git
+2. 下載後打開檔案 
 
-是一種標記語言  
-裡面包含了各種功能的標籤  
-每個標籤都對應到網頁內的物件  
-
-```html
-<!DOCTYPE html>
-<html>
-  <body>
-    <h1>hello world!</h1>
-  </body>
-</html>
-```
+![](https://cdn.discordapp.com/attachments/711916752551804989/884681694693707846/0633dc249b85316.png)
 
 <style>
 h1 {
@@ -91,29 +96,27 @@ h1 {
   -moz-text-fill-color: transparent;
 }
 
-p,span {
+img{
+  width:600px;
+  float:right;
+}
+
+li {
   font-size: 26px;
-  line-height: 34px;
+  line-height: 36px;
 }
 </style>
 
 ---
 
-# HTML tag
+# Git 安裝時更改的地方
 
-HTML 是由一個個的 tag 組成的  
-tag 的功能從連結外面的資源到頁面的物件都有  
-也有一些 tag 是拿來給設定值的  
-大部分的 tag 都會有開頭和結尾  
+前面不需要做更改  
+到 `Configuring the terminal...` 時  
+選 `Use Windows' default console window`  
+然後就可以按下一步後安裝了  
 
-```html
-<body></body>
-<a></a>
-<html></html>
-<h1></h1>
-<p></p>
-<button></button>
-```
+![](https://media.discordapp.net/attachments/711916752551804989/885165072958226442/unknown.png)
 
 <style>
 h1 {
@@ -124,589 +127,36 @@ h1 {
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent; 
   -moz-text-fill-color: transparent;
-}
-
-p,span {
-  font-size: 26px;
-  line-height: 34px;
-}
-</style>
-
----
-
-# HTML 沒有結尾的 tag
-
-少數的 HTML tag 沒有結尾  
-通常原因是內容只有單一個  
-例如 img
-
-```html
-<img src="./html.jpg" />
-```
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-text-fill-color: transparent;
-}
-
-p,span {
-  font-size: 26px;
-  line-height: 34px;
-}
-</style>
-
----
-
-# HTML 的基礎結構
-
-最基本的 HTML 文件有三個 tag  
-
-```html
-<!DOCTYPE html>
-<html>
-  <body>
-    Young好帥
-  </body>
-</html>
-```
-
-其中第一行 <!DOCTYPE html>  
-代表對瀏覽器聲明此文件為 HTML  
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-text-fill-color: transparent;
-}
-
-p,span {
-  font-size: 26px;
-  line-height: 34px;
-}
-</style>
-
----
-
-# HTML head
-
-一份 HTML 文件內的 head 通常會用來放一些網頁內無法直接看見的內容  
-例如引入 CSS 或 JavaScirpt 檔案  
-或是一些基礎設定  
-
-```html
-<!DOCTYPE html>
-<html>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML example</title>
-    <link rel="stylesheet" href="./style.css">
-</html>
-```
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-text-fill-color: transparent;
-}
-
-p,span {
-  font-size: 26px;
-  line-height: 34px;
-}
-</style>
-
----
-
-# HTML head 常用標籤介紹
-
-head 裏面最常放的幾個 tag 有：  
-
-```html
-<title> <link> <meta>
-```
-
-其中 title 顧名思義就是網頁的標題  
-link 是要連結的 CSS  
-meta 則是頁面的一些設定 例如字元編碼  
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-text-fill-color: transparent;
-}
-
-p,span {
-  font-size: 26px;
-  line-height: 34px;
-}
-</style>
-
----
-
-# HTML body
-
-HTML 檔案的 body 就是網頁所見的內容  
-預設是由上而下 由左而右的排列  
-我們也可以用 CSS 來更改排列方法  
-
-```html
-<!DOCTYPE html>
-<body>
-  <h1>
-    西瓜電死人了！
-  </h1>
-  <img src="./a.jpg" />
-</body>
-```
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-text-fill-color: transparent;
-}
-
-p,span {
-  font-size: 26px;
-  line-height: 34px;
-}
-</style>
-
----
-
-# HTML body 常用標籤介紹
-
-body 內會用到的標籤有非常多  
-有些一看名稱就會知道功能  
-其中 h1 到 h6 分別為最大到最小的標題  
-
-```html
-<h1> <p> <a> <img> <video> <button>
-```
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-text-fill-color: transparent;
-}
-
-p,span {
-  font-size: 26px;
-  line-height: 34px;
-}
-</style>
-
----
-
-# HTML 包覆的概念
-
-HTML 的結構是一層一層疊上去的  
-最常看到用來包覆其他 tag 的就是 div  
-div 可以幫網頁進行分區  
-以利後續開發  
-
-```html
-<div>
-  <h1>hello world!</h1>
-</div>
-```
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-text-fill-color: transparent;
-}
-
-p,span {
-  font-size: 26px;
-  line-height: 34px;
-}
-</style>
-
----
-
-# 為什麼不只用 HTML 來寫網頁？
-
-接下來會介紹 CSS 和為何需要 CSS  
-當我們寫 HTML 一段時間後會發現  
-我們雖然能夠呼叫 HTML 的 tag 到頁面上  
-但是卻不能加以排版或更改樣式  
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-text-fill-color: transparent;
-}
-
-p,span {
-  font-size: 26px;
-  line-height: 34px;
-}
-</style>
-
----
-
-# CSS 是什麼？
-
-CSS 全名：階層樣式表  
-
-用來修飾 HTML 檔案  
-我們可以從 HTML 內引入 CSS  
-
-```html
-<link rel="stylesheet" href="./style.css">
-```
-
-通常這段會放在 HTML 的 Head 內  
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-text-fill-color: transparent;
-}
-
-p,span {
-  font-size: 26px;
-  line-height: 34px;
-}
-</style>
-
----
-
-# CSS 語法
-
-CSS 語法主要分為選擇器和修飾的內容  
-
-```css
- h1 {
-    text-align: center;
-    font-size: 48px;
-}
-```
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-text-fill-color: transparent;
-}
-
-p,span {
-  font-size: 26px;
-  line-height: 34px;
-}
-</style>
-
-
----
-
-# CSS selecter
-
-CSS 的選擇器可以讓 CSS 去找到需要被修飾的 HTML code  
-這邊只介紹三種基本的選擇器  
-tag id class  
-
-```css
-h1{}
-
-#title{}
-
-.title{}
-```
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-text-fill-color: transparent;
-}
-
-p,span {
-  font-size: 26px;
-  line-height: 34px;
-}
-</style>
-
----
-
-# CSS select by tag
-
-我們先來了解最基礎的 CSS 要如何知道要修飾的對象  
-先來一段 HTML 配 CSS
-
-```html
-<body>
-  <h1>
-    這是大標題
-  </h1>
-  <p>這是內文</p>
-</body>
-```
-
-```css
-h1{
-  color: red;
-}
-```
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-text-fill-color: transparent;
-}
-
-p,span {
-  font-size: 26px;
-  line-height: 34px;
-}
-</style>
-
----
-
-# CSS select by class
-
-再來如果要用 class 那就要幫 tag 加上 class  
-在 tag 的開頭使用 class=""  
-
-```html
-<body>
-  <h1 class="r">
-    這是大標題
-  </h1>
-  <p>這是內文</p>
-</body>
-```
-
-```css
-.r{
-  color: red;
-}
-```
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-text-fill-color: transparent;
-}
-
-p,span {
-  font-size: 26px;
-  line-height: 34px;
-}
-</style>
-
----
-
-# CSS select by id
-
-可以用 class 理所當然也可以用 id  
-範例如下：  
-
-```html
-<body>
-  <h1 id="r">
-    I am red.
-  </h1>
-</body>
-```
-
-```css
-#r{
-  color: red;
-}
-```
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-text-fill-color: transparent;
-}
-
-p,span {
-  font-size: 26px;
-  line-height: 34px;
-}
-</style>
-
----
-
-# 呈現的效果
-
-剛剛三種方法做出來都會像下面的圖一樣  
-
-![](https://cdn.discordapp.com/attachments/711916752551804989/896611419557072916/unknown.png)
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-text-fill-color: transparent;
-}
-
-p,span {
-  font-size: 26px;
-  line-height: 34px;
-}
-</style>
-
----
-
-# hex color
-
-十六進位的顏色  
-通常用於網頁上的按鈕和背景顏色等等  
-
-```
-#4050A0
-```
-
-有 RGB 三原色  
-分別對應到六個16進位數的值
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-text-fill-color: transparent;
-}
-
-p,span {
-  font-size: 26px;
-  line-height: 34px;
-}
-
-span :nth-child(2,3){
-  color: #FF0000;
-}
-
-span :nth-child(4,5){
-  color: #00FF00;
-}
-
-span :nth-child(6,7){
-  color: #0000FF;
-}
-
-</style>
-
----
-
-# 第三方的 CSS 的套件
-
-CSS 寫起來很容易會有重複的地方  
-所以有時候為了開發的效率和時間等等因素  
-常常會使用到 CSS 的套件  
-最常聽到的就是 Bootstrap  
-
-![](https://cdn.discordapp.com/attachments/711916752551804989/896606698054230046/bootstrap-stack.png)
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-text-fill-color: transparent;
-}
-
-p,span {
-  font-size: 26px;
-  line-height: 34px;
 }
 
 img{
   height: 300px;
 }
 
+p {
+  font-size: 26px;
+  line-height: 36px;
+}
+
 </style>
 
+
+---
+layout: image-right
+image: https://cdn.discordapp.com/attachments/711916752551804989/885169823951241276/unknown.png
 ---
 
-# JavaScript 是什麼？
 
-JavaScript 是一種直譯的程式語言  
-可以用來寫網頁前端的功能  
-例如動畫 計數器 等等有互動性的小功能  
-因篇幅長度在此不會深入講解  
+# 打開終端機確認
+# Git 安裝成功
+
+1. 使用 `win + R` 輸入 cmd 開啟 Windows 終端機
+2. 輸入 `git` 確認 Git 成功安裝
+
+成功安裝好的話終端機會列出  
+可用的 Git 指令列表  
+再來就可以開始建立儲存庫了  
+
 
 <style>
 h1 {
@@ -719,26 +169,66 @@ h1 {
   -moz-text-fill-color: transparent;
 }
 
-p,span {
-  font-size: 26px;
-  line-height: 34px;
+img{
+  overflow: hidden;
 }
+
+li,p {
+  font-size: 26px;
+  line-height: 36px;
+}
+
+</style>
+
+
+---
+
+# 新增 Git repository
+
+1. 進入 windows cmd 或 linux terminal  
+2. 建立並進到一個空的資料夾內  (mkdir & cd)
+3. 輸入 git init  
+
+這樣你的 Git repository 就已經建立好了  
+
+```sh
+git init
+```
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+li,p,span {
+  font-size: 26px;
+  line-height: 36px;
+}
+
 </style>
 
 ---
 
-# json 格式
+# Git add
 
-json 格式是廣泛用於各種資料儲存  
-或是做為遊戲和應用程式等等的設定檔  
-因為檔案體積小和易讀等優點受到廣泛使用  
+將檔案加入版本控制追蹤名單  
+使用方法:  
 
-```json
-{
-     "Name": "Young",
-     "sex": "male",
-     "age": 16,
-}
+```sh
+git add [檔案名稱]
+```
+
+如果要把當前的目錄底下所有檔案  
+都加入版本控制的話可以使用  
+
+```sh
+git add .
 ```
 
 <style>
@@ -754,21 +244,21 @@ h1 {
 
 p,span {
   font-size: 26px;
-  line-height: 34px;
+  line-height: 36px;
 }
 </style>
 
+
 ---
 
-# node.js
+# Git commit
 
-node.js 讓前端工程師使用自己熟悉的 js 程式語言  
-來開發網頁的後端  
-網頁後端的工作有很多  
-例如社群網站的貼文 按讚 留言等等功能  
-都是由後端來記錄和計算  
+commit 可以把寫好並且有被添加(git add)  
+到版本管理的程式加到 Git 內  
 
-![](https://media.discordapp.net/attachments/711916752551804989/896714641969905694/nodejs-logo.png)
+```sh
+git commit -m "這是一個commit"
+```
 
 <style>
 h1 {
@@ -783,23 +273,116 @@ h1 {
 
 p,span {
   font-size: 26px;
-  line-height: 34px;
+  line-height: 36px;
+}
+</style>
+
+
+---
+
+# Push 到 Github
+
+Github 是一個以 git 為基礎架設的網路服務平台  
+Github 比起終端機內的 git 更加好理解  
+我們可以直接下載 Github 的桌面版 [Github Desktop](https://desktop.github.com)  
+
+在 push 之前我們要先有一個雲端的 Git 服務  
+並且設定好 push 的目的地  
+
+![](https://cdn.discordapp.com/attachments/878632791728869401/884692399417348116/d6528811.png)
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
 }
 
-img {
-  height: 250px
+p {
+  font-size: 26px;
+  line-height: 36px;
+}
+
+img{
+  width:600px;
+}
+</style>
+
+
+---
+
+# 申請 Github 帳號
+
+直接在瀏覽器搜尋 Github  
+然後辦好一個帳號  
+因為之前有先請各位註冊  
+這邊就先不教如何註冊 Github 帳號  
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p {
+  font-size: 26px;
+  line-height: 36px;
+}
+
+</style>
+
+---
+
+# 新增雲端庫
+
+在 Github 上點擊  
+Profile > Repositories > new repository  
+
+取好名稱後就直接新增  
+然後會看到以下畫面  
+
+這樣就新增好雲端庫了  
+然後複製上面的連結  
+等一下會用到  
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p {
+  font-size: 26px;
+  line-height: 36px;
 }
 </style>
 
 ---
 
-# 前端框架介紹
+# Git config --global
 
-網頁前端除了直接手寫以外  
-也有許多開發框架可以使用  
-例如 React,Vue,Angular 等等  
+再來有兩條要設定的指令  
+一個是 email  
+一個是 gituhb id  
 
-![](https://cdn.discordapp.com/attachments/711916752551804989/896727041351774229/R.png)
+```sh
+git config --global user.email [你的email]
+git config --global user.name [你的github id]
+```
 
 <style>
 h1 {
@@ -814,25 +397,408 @@ h1 {
 
 p,span {
   font-size: 26px;
-  line-height: 34px;
-}
-
-img {
-  height: 300px
+  line-height: 36px;
 }
 </style>
 
+---
+
+# Git remote add
+
+把本機的 repository 連結到雲端的 Github 庫  
+
+```sh
+git remote add [遠端庫簡稱 可以自己取] [Github上的連結]
+```
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 36px;
+}
+</style>
+
+
+---
+
+# Git push
+
+最後我們終於要 Push 到 Github 上了  
+首先先把剛剛的遠端庫簡稱設定到 Github 的 main 分支上  
+
+main 是預設的分支  
+分支的用法後面會加以介紹  
+
+-u 的意思是綁定要 push 到的分支  
+
+```sh
+git push -u [遠端庫簡稱] main
+```
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 36px;
+}
+</style>
+
+
+---
+
+# 新增一個檔案後再 Push 到 Github 一次
+
+前面已經把我們第一個 commit push 到 Github 上的儲存庫了  
+那之後我們變動檔案完要再 Push 就不會那麼麻煩了  
+只剩下三個步驟  
+
+```sh
+git add .
+
+git commit -m "這是一個commit"
+
+git push
+```
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 36px;
+}
+</style>
+
+
+---
+
+# Git ignore
+
+如果我們有些檔案不想推到 Github 上的話  
+例如編譯好的 exe 檔案  
+我們可以新增一個檔案取名叫`.gitignore`  
+
+![](https://i.imgur.com/nJDLmm9.png)
+
+然後開啟它以後寫上`*.exe`  
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p {
+  font-size: 26px;
+  line-height: 36px;
+}
+</style>
+
+---
+
+# Git pull
+
+如果同時有多個裝置在同一個遠端庫作業  
+會有其中一邊 Push 完另一邊要跟上  
+所以需要將遠端庫拉下來  
+就會用到 Pull  
+
+```sh
+git pull
+```
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 36px;
+}
+</style>
+
+
+---
+
+# Git clone
+
+Git clone 可以直接下載一份完整的儲存庫下來  
+像是在維護別人寫的 Code  
+或是換電腦工作時都會用到  
+
+```sh
+git clone [url]
+```
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 36px;
+}
+</style>
+
+---
+
+# Github Desktop
+
+因為以下內容比較複雜  
+所以我們改用具有圖形介面的 Github Desktop 教學  
+
+下載網址  
+
+```
+https://desktop.github.com
+```
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 36px;
+}
+
+</style>
+
+---
+
+# 使用 Github Desktop
+# clone 剛剛的 repo 下來
+
+以下由講師示範  
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 36px;
+}
+
+</style>
+
+---
+
+# Git branch
+
+Git 有分支的功能  
+分支是為了在不影響主線的情況下進行額外的開發  
+例如新增擴充功能 debug等等  
+
+![](https://i.imgur.com/VAYsI1n.png)
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p {
+  font-size: 26px;
+  line-height: 36px;
+}
+
+</style>
+
+---
+
+# 新增 合併 刪除 branch
+
+以下都會由講師使用 Github Desktop 帶大家操作  
+因此段難度較高  
+請各位專心聆聽  
+有問題者可以找其他幹部  
+或等講者介紹完  
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p {
+  font-size: 26px;
+  line-height: 36px;
+}
+</style>
+
+---
+
+# Github cli
+
+Github cli 提供了  
+在系統內終端機內使用 Github 功能  
+
+```
+https://cli.github.com
+```
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 36px;
+}
+</style>
+
+---
+
+# 在 Github cli 上登入
+
+在 Github cli 登入自己的帳號  
+
+```sh
+gh auth login
+```
+
+選擇 Github.com
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 36px;
+}
+</style>
+
+---
+
+# gh repo view
+
+進到 github repo 的資料夾後  
+使用指令
+
+```sh
+gh repo view
+```
+
+可以取得 repo 的相關資訊  
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 36px;
+}
+
+</style>
 
 ---
 layout: image-right
-image: https://media.discordapp.net/attachments/711916752551804989/896856692032167946/R.png?width=400&height=400
+image: https://cdn.discordapp.com/attachments/878632791728869401/884689392323678239/JH1ZhmiAgFEFOxqzQPI1SourjeAiIJdrXkAuVrFxfUGEFGwqzUPIFeruLjeACIKdrXmAeRqFRfXxYfz8dJXtW4QAAAABJRU5ErkJ.png
 ---
 
-# React
+# 加入我們的
+# Github organization
 
-下一節社課教學內容是 React  
-講者是我們的副社小西瓜  
-敬請期待  
+我們社團有自己的 Github 組織  
+歡迎各位加入  
+
+只要進到 Discord 伺服器  
+留下自己的 Github 使用者名稱  
+就會邀請你加入 Github 組織  
 
 <style>
 h1 {
@@ -845,13 +811,9 @@ h1 {
   -moz-text-fill-color: transparent;
 }
 
-p,span {
+p {
   font-size: 26px;
-  line-height: 34px;
-}
-
-img {
-  height: 300px
+  line-height: 36px;
 }
 </style>
 
@@ -881,9 +843,3 @@ p {
   text-align: center;
 }
 </style>
-
----
-layout: end
----
-
-# end
