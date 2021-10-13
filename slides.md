@@ -99,6 +99,31 @@ p,span {
 
 ---
 
+# 下載和安裝 vscode 
+
+1. 到 [vscode 官網](https://code.visualstudio.com/) 下載 vscode 
+ 
+2. 安裝 vscode
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span,li {
+  font-size: 26px;
+  line-height: 34px;
+}
+</style>
+
+---
+
 # HTML tag
 
 HTML 是由一個個的 tag 組成的  
@@ -341,6 +366,39 @@ div 可以幫網頁進行分區
   <h1>hello world!</h1>
 </div>
 ```
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 34px;
+}
+</style>
+
+---
+
+# 使用 HTML 插入超連結
+
+```html
+<body>
+  <a href="https://github.com/Young-TW">
+    Young的Github
+  </a>
+</body>
+```
+
+效果如下  
+
+![](https://media.discordapp.net/attachments/711916752551804989/897650221033594930/unknown.png)
 
 <style>
 h1 {
@@ -624,13 +682,132 @@ p,span {
 
 ---
 
+# CSS text-align
+
+想要讓文字左右移位就用 text-align 吧  
+
+## 我是 h2
+
+```css
+h2 {
+  text-align: center;
+}
+```
+
+裡面填 center 後 h2 就會被移到畫面中間了  
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 34px;
+}
+
+h2 {
+  text-align: center;
+}
+</style>
+
+---
+
+# CSS font-size
+
+CSS 調整字體大小可以用 font-size  
+單位常用px 也就是 pixel 的縮寫  
+
+## 我是 h2
+
+```css
+h2 {
+  font-size: 48px;
+}
+```
+
+這樣雖然 h2 照理來說比 h1 小  
+但是經過調整後會比 h1 大  
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 34px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+</style>
+
+---
+
+# CSS color
+
+## 我是 h2
+
+```css
+h2 {
+  color: red;
+}
+```
+
+CSS 內建了顏色的名稱可以直接調用  
+但是通常我們都會用16進位的色碼  
+也稱為 hex color  
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 34px;
+}
+
+h2 {
+  color: red;
+}
+
+</style>
+
+---
+
 # hex color
 
 十六進位的顏色  
 通常用於網頁上的按鈕和背景顏色等等  
 
-```
-#4050A0
+## 我是 h2
+
+```css
+h2 {
+  color: #4050A0
+}
 ```
 
 有 RGB 三原色  
@@ -652,18 +829,9 @@ p,span {
   line-height: 34px;
 }
 
-span :nth-child(2,3){
-  color: #FF0000;
+h2 {
+  color: #4050A0
 }
-
-span :nth-child(4,5){
-  color: #00FF00;
-}
-
-span :nth-child(6,7){
-  color: #0000FF;
-}
-
 </style>
 
 ---
@@ -707,6 +875,31 @@ JavaScript 是一種直譯的程式語言
 可以用來寫網頁前端的功能  
 例如動畫 計數器 等等有互動性的小功能  
 因篇幅長度在此不會深入講解  
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 34px;
+}
+</style>
+
+---
+
+# JavaScript 基本輸出
+
+```js
+console.log("Young好帥")
+```
 
 <style>
 h1 {
