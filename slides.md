@@ -12,17 +12,17 @@ highlighter: shiki
 lineNumbers: false
 # some information about the slides, markdown enabled
 info: |
-  ## Git & Github 介紹
-  講者: Young 地點: 台南高工
+  ## Introduction of Git & Github 
+  Speaker: Young Location: NTIHS
 
   Learn more at [Hackmd](https://hackmd.io/@young-tw/BJM_N46QY)
 
 download: true
 ---
 
-# Git & Github 介紹
+# Introduction of Git & Github 
 
-講者: Young 地點: 台南高工
+Speaker: Young Location: NTIHS
 
 <div class="abs-br m-6 flex gap-2">
   <a href="https://github.com/Young-TW" target="_blank" alt="GitHub"
@@ -33,10 +33,10 @@ download: true
 
 ---
 
-# 使用 Git 實現版本控制
+# Make use of Git to implement version controling
 
-Git 是一種用來管理軟體版本的工具  
-以下會介紹 Git 和 Github 的使用方法  
+Git is a tool to control version of software.  
+The following will introduce the instructions about Git and Github.  
 
 ![](https://cdn.discordapp.com/attachments/711916752551804989/884681694693707846/0633dc249b85316.png)
 
@@ -78,10 +78,10 @@ p {
 
 ---
 
-# 下載和安裝 Git
+# Download and install Git
 
-1. 在瀏覽器搜尋 Git
-2. 下載後打開檔案 
+1. Searching Git on the browser.  
+2. Download and open the installer.  
 
 ![](https://cdn.discordapp.com/attachments/711916752551804989/884681694693707846/0633dc249b85316.png)
 
@@ -109,12 +109,11 @@ li {
 
 ---
 
-# Git 安裝時更改的地方
-
-前面不需要做更改  
-到 `Configuring the terminal...` 時  
-選 `Use Windows' default console window`  
-然後就可以按下一步後安裝了  
+# The part of installing Git needs to be change.  
+ 
+When you see `Configuring the terminal...`.     
+Choose `Use Windows' default console window`.  
+Then select `next step` and `install`.  
 
 ![](https://media.discordapp.net/attachments/711916752551804989/885165072958226442/unknown.png)
 
@@ -147,15 +146,15 @@ image: https://cdn.discordapp.com/attachments/711916752551804989/885169823951241
 ---
 
 
-# 打開終端機確認
-# Git 安裝成功
+# Check the terminal
+# Git install successed
 
-1. 使用 `win + R` 輸入 cmd 開啟 Windows 終端機
-2. 輸入 `git` 確認 Git 成功安裝
+1. Use `win + R` input cmd to open Windows terminal.  
+2. Input `git` to check Git install successed.  
 
-成功安裝好的話終端機會列出  
-可用的 Git 指令列表  
-再來就可以開始建立儲存庫了  
+If it install successed,teminal will list
+command list Git can be used 
+And than we can build the git repository.    
 
 
 <style>
@@ -183,13 +182,13 @@ li,p {
 
 ---
 
-# 新增 Git repository
+# Add Git repository
 
-1. 進入 windows cmd 或 linux terminal  
-2. 建立並進到一個空的資料夾內  (mkdir & cd)
-3. 輸入 git init  
+1. Enter the windows cmd or linux terminal.    
+2. Add an empty folder and enter it (mkdir & cd).  
+3. Input git init.    
 
-這樣你的 Git repository 就已經建立好了  
+Than your Git repository were established.    
 
 ```sh
 git init
@@ -217,15 +216,14 @@ li,p,span {
 
 # Git add
 
-將檔案加入版本控制追蹤名單  
-使用方法:  
+Add the file in the version controling track list.     
+Usage:  
 
 ```sh
-git add [檔案名稱]
+git add [File name]
 ```
 
-如果要把當前的目錄底下所有檔案  
-都加入版本控制的話可以使用  
+If you want to add all files in version controling can use.  
 
 ```sh
 git add .
@@ -253,11 +251,10 @@ p,span {
 
 # Git commit
 
-commit 可以把寫好並且有被添加(git add)  
-到版本管理的程式加到 Git 內  
+Commit can turn the your source code into a version controling in Git.  
 
 ```sh
-git commit -m "這是一個commit"
+git commit -m "This is a commit"
 ```
 
 <style>
@@ -280,14 +277,13 @@ p,span {
 
 ---
 
-# Push 到 Github
+# Push to Github
 
-Github 是一個以 git 為基礎架設的網路服務平台  
-Github 比起終端機內的 git 更加好理解  
-我們可以直接下載 Github 的桌面版 [Github Desktop](https://desktop.github.com)  
+Github is a Internet service platform which based on Git.    
+Github is easier to understand than git in the terminal.   
+We can download the Github desktop. [Github Desktop](https://desktop.github.com)    
 
-在 push 之前我們要先有一個雲端的 Git 服務  
-並且設定好 push 的目的地  
+We need git cloud service before push and set up the destination of push.  
 
 ![](https://cdn.discordapp.com/attachments/878632791728869401/884692399417348116/d6528811.png)
 
@@ -315,12 +311,12 @@ img{
 
 ---
 
-# 申請 Github 帳號
+# Applicate Github account
 
-直接在瀏覽器搜尋 Github  
-然後辦好一個帳號  
-因為之前有先請各位註冊  
-這邊就先不教如何註冊 Github 帳號  
+Searching Github on browser.  
+Than applicate an account.    
+Because we asked everyone to register bofore.  
+We won't teach you how to register Github account here.  
 
 <style>
 h1 {
@@ -342,17 +338,17 @@ p {
 
 ---
 
-# 新增雲端庫
+# Create remote repository
 
-在 Github 上點擊  
+Click on Github  
 Profile > Repositories > new repository  
 
-取好名稱後就直接新增  
-然後會看到以下畫面  
+Create before you name it.    
+Than you will see the following.  
 
-這樣就新增好雲端庫了  
-然後複製上面的連結  
-等一下會用到  
+Than you create it successful.  
+Copy the link.   
+It will be used later.    
 
 <style>
 h1 {
@@ -375,13 +371,12 @@ p {
 
 # Git config --global
 
-再來有兩條要設定的指令  
-一個是 email  
-一個是 gituhb id  
+Than we need to set up two commands.  
+To set your email and github id.  
 
 ```sh
-git config --global user.email [你的email]
-git config --global user.name [你的github id]
+git config --global user.email [your email]
+git config --global user.name [your github id]
 ```
 
 <style>
@@ -405,10 +400,10 @@ p,span {
 
 # Git remote add
 
-把本機的 repository 連結到雲端的 Github 庫  
+Connect native repository to remote Github repository.    
 
 ```sh
-git remote add [遠端庫簡稱 可以自己取] [Github上的連結]
+git remote add [name] [link on Github]
 ```
 
 <style>
@@ -433,16 +428,16 @@ p,span {
 
 # Git push
 
-最後我們終於要 Push 到 Github 上了  
-首先先把剛剛的遠端庫簡稱設定到 Github 的 main 分支上  
+Finally we will  Push it on Github.    
+First set the remote repository on Github's main branch.    
 
-main 是預設的分支  
-分支的用法後面會加以介紹  
+main is the preset branch.    
+The usage about branch will present later.  
 
--u 的意思是綁定要 push 到的分支  
+-u means bind the branch you want to push.    
 
 ```sh
-git push -u [遠端庫簡稱] main
+git push -u [name] main
 ```
 
 <style>
@@ -465,16 +460,16 @@ p,span {
 
 ---
 
-# 新增一個檔案後再 Push 到 Github 一次
+# Create a new file than Push on Github again.  
 
-前面已經把我們第一個 commit push 到 Github 上的儲存庫了  
-那之後我們變動檔案完要再 Push 就不會那麼麻煩了  
-只剩下三個步驟  
+We have the commit push on Github repository before.    
+After this,when we revise the file and Push it won't difficult like bofore. 
+Now only remain three steps.    
 
 ```sh
 git add .
 
-git commit -m "這是一個commit"
+git commit -m "This is a commit"
 
 git push
 ```
@@ -501,13 +496,13 @@ p,span {
 
 # Git ignore
 
-如果我們有些檔案不想推到 Github 上的話  
-例如編譯好的 exe 檔案  
-我們可以新增一個檔案取名叫`.gitignore`  
+If we don't want some files were filed Github.    
+Example the exe file which complied.  
+We can create a new file named`.gitignore`.    
 
 ![](https://i.imgur.com/nJDLmm9.png)
 
-然後開啟它以後寫上`*.exe`  
+Open it than type`*.exe`.    
 
 <style>
 h1 {
@@ -530,10 +525,10 @@ p {
 
 # Git pull
 
-如果同時有多個裝置在同一個遠端庫作業  
-會有其中一邊 Push 完另一邊要跟上  
-所以需要將遠端庫拉下來  
-就會用到 Pull  
+If there are multiple devices run on the same repository at the same time.    
+One of it Push down and other need to keep up.    
+So need to pull down form the remote repository.  
+Than we will use Pull.    
 
 ```sh
 git pull
@@ -561,9 +556,8 @@ p,span {
 
 # Git clone
 
-Git clone 可以直接下載一份完整的儲存庫下來  
-像是在維護別人寫的 Code  
-或是換電腦工作時都會用到  
+Git clone can download a complete repository directly.  
+Both of protect someone's Code and change computer to work will use it.   
 
 ```sh
 git clone [url]
@@ -590,10 +584,10 @@ p,span {
 
 # Github Desktop
 
-因為以下內容比較複雜  
-所以我們改用具有圖形介面的 Github Desktop 教學  
+Because the following will be more complex.   
+So we switch to use Github Desktop teaching which have graphical interface. 
 
-下載網址  
+Download link.    
 
 ```
 https://desktop.github.com
@@ -619,10 +613,10 @@ p,span {
 
 ---
 
-# 使用 Github Desktop
-# clone 剛剛的 repo 下來
+# Use Github Desktop
+# clone the repo down
 
-以下由講師示範  
+Let speaker demonstrate below.    
 
 <style>
 h1 {
@@ -646,9 +640,9 @@ p,span {
 
 # Git branch
 
-Git 有分支的功能  
-分支是為了在不影響主線的情況下進行額外的開發  
-例如新增擴充功能 debug等等  
+Git have the branch functions.    
+Branch is in order to develop additionally in the condition which not want to affect the main line.  
+Example that add extensions and debug.   
 
 ![](https://i.imgur.com/VAYsI1n.png)
 
@@ -672,13 +666,12 @@ p {
 
 ---
 
-# 新增 合併 刪除 branch
+# Create merge delete branch
 
-以下都會由講師使用 Github Desktop 帶大家操作  
-因此段難度較高  
-請各位專心聆聽  
-有問題者可以找其他幹部  
-或等講者介紹完  
+The speaker will use the Github Desktop to lead everyone to operate below.    
+Becase this part is more difficult than others.    
+Please listen attentively.  
+You can find other cadres or wait for the speaker to finish if you have question.    
 
 <style>
 h1 {
@@ -701,8 +694,7 @@ p {
 
 # Github cli
 
-Github cli 提供了  
-在系統內終端機內使用 Github 功能  
+Github cli offer the function of using Github in system's terminal.    
 
 ```
 https://cli.github.com
@@ -727,15 +719,15 @@ p,span {
 
 ---
 
-# 在 Github cli 上登入
+# Log in Github cli  
 
-在 Github cli 登入自己的帳號  
+Logging in your own account on Github cli    
 
 ```sh
 gh auth login
 ```
 
-選擇 Github.com
+Choose Github.com  
 
 <style>
 h1 {
@@ -758,14 +750,14 @@ p,span {
 
 # gh repo view
 
-進到 github repo 的資料夾後  
-使用指令
+Enter the folder of github repo.   
+input command.  
 
 ```sh
 gh repo view
 ```
 
-可以取得 repo 的相關資訊  
+You can get the informations about repo.    
 
 <style>
 h1 {
@@ -790,15 +782,15 @@ layout: image-right
 image: https://cdn.discordapp.com/attachments/878632791728869401/884689392323678239/JH1ZhmiAgFEFOxqzQPI1SourjeAiIJdrXkAuVrFxfUGEFGwqzUPIFeruLjeACIKdrXmAeRqFRfXxYfz8dJXtW4QAAAABJRU5ErkJ.png
 ---
 
-# 加入我們的
+# Join us
 # Github organization
 
-我們社團有自己的 Github 組織  
-歡迎各位加入  
+Our club have a Github organization.    
+Welcome everyone to join.    
 
-只要進到 Discord 伺服器  
-留下自己的 Github 使用者名稱  
-就會邀請你加入 Github 組織  
+Join the Discord server.    
+Leave your own Github user name  
+We will invite you to join Github organization.   
 
 <style>
 h1 {
@@ -819,9 +811,9 @@ p {
 
 ---
 
-# 感謝聆聽
+# Thank you for your listening.
 
-講者： Young 地點：台南高工  
+Speaker： Young Location：NTIHS  
 
 <style>
 h1 {
