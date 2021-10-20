@@ -202,7 +202,7 @@ p,span {
 ```
 
 其中第一行 <!DOCTYPE html>  
-代表對瀏覽器聲明此文件為 HTML  
+代表對瀏覽器聲明此文件為 HTML & HTML 的版本  
 
 <style>
 h1 {
@@ -358,7 +358,10 @@ p,span {
 
 HTML 的結構是一層一層疊上去的  
 最常看到用來包覆其他 tag 的就是 div  
-div 可以幫網頁進行分區  
+
+div 類似於一個容器  
+可以放其他的東西在裡面  
+也可以幫網頁進行分區  
 以利後續開發  
 
 ```html
@@ -386,14 +389,12 @@ p,span {
 
 ---
 
-# 使用 HTML 插入超連結
+# 使用 HTML 加入超連結
 
 ```html
-<body>
-  <a href="https://github.com/Young-TW">
-    Young的Github
-  </a>
-</body>
+<a href="https://github.com/Young-TW">
+  Young的Github
+</a>
 ```
 
 效果如下  
@@ -414,6 +415,73 @@ h1 {
 p,span {
   font-size: 26px;
   line-height: 34px;
+}
+</style>
+
+---
+
+# 使用 HTML 加入圖片
+
+```html
+<img src="./Young.jpg" />
+```
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 34px;
+}
+</style>
+
+---
+
+# 使用 HTML 加入列表
+
+```html
+<ul>
+　<li>第1</li>
+　<li>第2</li>
+　<li>第3</li>
+</ul>
+```
+
+效果如右：
+![](https://media.discordapp.net/attachments/750573854090461195/898856983573192774/unknown.png)
+
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 34px;
+}
+
+p {
+  width: 800px;
+}
+
+img {
+  height: 200px;
+  float: right;
 }
 </style>
 
