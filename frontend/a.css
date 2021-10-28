@@ -1,0 +1,34 @@
+body {
+    color: #FFFFFF;
+    background-color: #000000;
+    border: 0px;
+    margin: 0px;
+}
+
+
+iframe {
+    box-shadow: 10px 5px 5px gray;
+}
+
+#mywife {
+    display: block;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: lightsteelblue;
+}
+
+#dc {
+    height: 30px;
+    width: 30px;
+}
+
+a {
+    text-decoration: none;
+}
