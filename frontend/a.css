@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
 body {
     color: #FFFFFF;
     background-color: #000000;
     border: 0px;
     margin: 0px;
+    font-family: 'Noto Sans TC', sans-serif;
 }
 
 
@@ -31,4 +33,6 @@ h1 {
 
 a {
     text-decoration: none;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: lightsteelblue;
 }
