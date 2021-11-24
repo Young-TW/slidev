@@ -32,3 +32,31 @@ download: true
 </div>
 
 ---
+
+# Terminal 是甚麼?
+
+Terminal 終端機  
+是一種人與電腦互動的介面  
+終端機只提供文字輸入和輸出  
+在早期的電腦常常可以看到  
+因為操作終端機不需要使用滑鼠  
+很多軟體開發者也喜歡使用終端機處理事情  
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 36px;
+}
+</style>
+
+---
