@@ -179,6 +179,7 @@ p,span {
 
 我們目前有本機的儲存庫  
 並且登入 Github 帳號了  
+
 接下來要在 Github 上建立雲端的儲存庫  
 
 ```sh
@@ -206,7 +207,38 @@ p,span {
 
 # 設定 Upstream 
 
+第一次 push 的時候需要設定 upstream  
+`git push -u <remote name> <branch name>`  
+
+按照下面的方式輸入就可以了  
+
+```sh
 git push -u origin master
+```
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 36px;
+}
+</style>
+
+---
+
+# 到 Github 上查看 push 是否成功
+
+再次進到 Github 網頁內點擊右上角自己的大頭照  
+接著點擊 Your repositories  
 
 <style>
 h1 {
