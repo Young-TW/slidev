@@ -73,7 +73,7 @@ h1 {
   -moz-text-fill-color: transparent;
 }
 
-p,span {
+p,span,li {
   font-size: 26px;
   line-height: 36px;
 }
@@ -119,4 +119,129 @@ p,span {
 
 ---
 
-#
+# gh auth login
+
+安裝好 Github-cli 以後輸入 `gh auth login` 會看到以下選項  
+
+![](https://media.discordapp.net/attachments/842705456413409321/913995758477406269/unknown.png)
+
+照著圖片上選就可以了  
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 36px;
+}
+
+img {
+  width: 100%;
+}
+</style>
+
+---
+
+# 登入後的畫面
+
+在瀏覽器輸入上面給的 ome-time code 後就成功登入了  
+
+![](https://media.discordapp.net/attachments/842705456413409321/913996752368070656/unknown.png)
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 36px;
+}
+</style>
+
+---
+
+# 建立雲端儲存庫 gh repo create
+
+我們目前有本機的儲存庫  
+並且登入 Github 帳號了  
+接下來要在 Github 上建立雲端的儲存庫  
+
+```sh
+gh repo create
+```
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 36px;
+}
+</style>
+
+---
+
+# 設定 Upstream 
+
+git push -u origin master
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 36px;
+}
+</style>
+
+---
+
+# 追蹤我的 Github 帳號
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 36px;
+}
+</style>

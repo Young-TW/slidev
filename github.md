@@ -95,7 +95,7 @@ p {
 
 ---
 
-# 新增雲端庫
+# 新增雲端儲存庫
 
 在 Github 上點擊  
 Profile > Repositories > new repository  
