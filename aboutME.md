@@ -64,7 +64,11 @@ li,p,span {
 
 # 我的 blog
 
-### young-tw.github.io
+```
+young-tw.github.io
+```
+
+![](https://cdn.discordapp.com/attachments/836570614503309342/914206315902013460/qrcode.jpg)
 
 <style>
 h1 {
@@ -80,6 +84,10 @@ h1 {
 li,p,span {
   font-size: 26px;
   line-height: 36px;
+}
+
+img {
+  width: 30%;
 }
 </style>
 
