@@ -33,11 +33,32 @@ download: true
 
 ---
 
-# 大家好 我是王晨洋
+# Hello
 
-小時候取了一個英文名字叫 Young  
-所以 Discord 裡面大家通常都叫我 Young  
+我的中文名字叫王晨洋  
+Discord 裡面大家通常都叫我 Young  
 
+目前高二 就讀台南高工資訊科  
+
+經常出沒的地方也是 Discord  
+歡迎大家來找我聊天  
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+li,p,span {
+  font-size: 26px;
+  line-height: 36px;
+}
+</style>
 
 ---
 
@@ -45,12 +66,46 @@ download: true
 
 ### young-tw.github.io
 
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+li,p,span {
+  font-size: 26px;
+  line-height: 36px;
+}
+</style>
+
 ---
 
 # 聯絡資訊
 
-- Discord: Young#0001
-- Facebook: Yang Wang
-- Instagram: Young__TW
-- Github: Young-TW
-- Twitter: Young___TW
+- Discord: `Young#0001`
+- Facebook: `Yang Wang`
+- Instagram: `Young__TW`
+- Github: `Young-TW`
+- Twitter: `Young___TW`
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+li,p,span {
+  font-size: 26px;
+  line-height: 36px;
+}
+</style>

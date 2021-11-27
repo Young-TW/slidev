@@ -35,8 +35,19 @@ download: true
 
 # Github 是甚麼?
 
-Github 是基於 Git 所建立的免費線上服務  
+1. Git
+
+![](https://cdn.discordapp.com/attachments/842705456413409321/914163141280153640/1024px-Git_icon.png)
+
+2. Github
+
+![](https://cdn.discordapp.com/attachments/842705456413409321/914162793853362216/25231.png)
+
+
+Github 是基於 Git 版本控制系統所建立的免費線上服務  
+並添加了許多 Git 沒有的功能  
 目前許多開源的大型專案都保存在 Github  
+
 
 <style>
 h1 {
@@ -53,14 +64,20 @@ p,span {
   font-size: 26px;
   line-height: 36px;
 }
+
+img {
+  width: 100px;
+}
 </style>
 
 ---
 
-# 註冊 GIthub 帳號
+# 註冊 Github 帳號
 
 1. 在瀏覽器搜尋 Github
 2. 註冊帳號
+
+~~這應該不用我教吧~~
 
 <style>
 h1 {
@@ -152,7 +169,7 @@ img {
 
 # 登入後的畫面
 
-在瀏覽器輸入上面給的 ome-time code 後就成功登入了  
+在瀏覽器輸入終端機內給的 ome-time code 後就成功登入了  
 
 ![](https://media.discordapp.net/attachments/842705456413409321/913996752368070656/unknown.png)
 
@@ -210,6 +227,7 @@ p,span {
 第一次 push 的時候需要設定 upstream  
 `git push -u <remote name> <branch name>`  
 
+白話來講就是指定你要 push 到的地方  
 按照下面的方式輸入就可以了  
 
 ```sh
@@ -240,6 +258,8 @@ p,span {
 再次進到 Github 網頁內點擊右上角自己的大頭照  
 接著點擊 Your repositories  
 
+![](https://cdn.discordapp.com/attachments/842705456413409321/914161922746765312/unknown.png)
+
 <style>
 h1 {
   background-color: #2B90B6;
@@ -261,6 +281,12 @@ p,span {
 
 # 追蹤我的 Github 帳號
 
+這是我的 Gtihub 帳號  
+
+![](https://media.discordapp.net/attachments/836570614503309342/914114715200913428/unknown.png)
+
+~~我很缺粉絲快追蹤我~~  
+
 <style>
 h1 {
   background-color: #2B90B6;
@@ -275,5 +301,38 @@ h1 {
 p,span {
   font-size: 26px;
   line-height: 36px;
+}
+
+img {
+  width: 50%;
+}
+</style>
+
+---
+layout: cover
+---
+
+# 感謝聆聽
+
+講者： Young  
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+  font-size: 72px;
+  line-height: 280px;
+  text-align: center;
+}
+
+p {
+  font-size: 26px;
+  line-height: 34px;
+  text-align: center;
 }
 </style>
