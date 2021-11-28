@@ -33,7 +33,7 @@ download: true
 
 ---
 
-# Hello
+# About me
 
 我的中文名字叫王晨洋  
 Discord 裡面大家通常都叫我 Young  
@@ -42,6 +42,36 @@ Discord 裡面大家通常都叫我 Young
 
 經常出沒的地方也是 Discord  
 歡迎大家來找我聊天  
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+li,p,span {
+  font-size: 26px;
+  line-height: 36px;
+}
+</style>
+
+---
+
+# Games
+
+以下是我有玩的遊戲  
+
+1. Rainbow six siege
+2. osu
+3. tetr.io
+4. quaver
+
+因為有點多所以只列出常玩的  
 
 <style>
 h1 {
