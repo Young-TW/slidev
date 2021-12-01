@@ -279,6 +279,65 @@ p,span {
 
 ---
 
+# clone 自己的程式碼下來
+
+要從 Github 複製一份程式碼到本機只要打上儲存庫名稱就可以了  
+
+```sh
+gh repo clone <repo-name>
+```
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 36px;
+}
+</style>
+
+---
+
+# clone 別人的程式碼下來
+
+要 clone 別人的程式的話要給兩個參數  
+第一是這個儲存庫是屬於誰的  
+第二是儲存庫名稱  
+
+```sh
+# 方法一
+gh repo clone <github-id>/<repo-name>
+#方法二
+gh repo clone https://github.com/<github-id>/<repo-name>
+```
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 36px;
+}
+</style>
+
+---
+
 # 追蹤我的 Github 帳號
 
 這是我的 Gtihub 帳號  
