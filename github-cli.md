@@ -98,6 +98,33 @@ p,span,li {
 
 ---
 
+# Github-cli 簡介
+
+Github-cli 集合了許多 Github 上的功能  
+讓使用者可以在終端機直接使用 Github 的服務  
+
+例如建立儲存庫、發送 Pull requests  
+也可以 clone 別人的儲存庫下來  
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 36px;
+}
+</style>
+
+---
+
 # 安裝 Github-cli
 
 在瀏覽器搜尋 Github cli 然後進到  
@@ -136,7 +163,7 @@ p,span {
 
 ---
 
-# gh auth login
+# 使用 Github-cli 登入帳號
 
 安裝好 Github-cli 以後輸入 `gh auth login` 會看到以下選項  
 
@@ -198,6 +225,7 @@ p,span {
 並且登入 Github 帳號了  
 
 接下來要在 Github 上建立雲端的儲存庫  
+如此一來就可以同步本機和線上的檔案  
 
 ```sh
 gh repo create
@@ -257,8 +285,34 @@ p,span {
 
 再次進到 Github 網頁內點擊右上角自己的大頭照  
 接著點擊 Your repositories  
+也就是你的儲存庫  
 
 ![](https://cdn.discordapp.com/attachments/842705456413409321/914161922746765312/unknown.png)
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 36px;
+}
+</style>
+
+---
+
+# 發現成功 Push 的儲存庫了
+
+在 Github 的儲存庫都會以下面圖片的形式出現  
+
+![](https://media.discordapp.net/attachments/755725610868932678/916028217264054302/unknown.png)
 
 <style>
 h1 {
@@ -335,6 +389,12 @@ p,span {
   line-height: 36px;
 }
 </style>
+
+---
+layout: cover
+---
+
+# 話說我很缺粉絲
 
 ---
 
