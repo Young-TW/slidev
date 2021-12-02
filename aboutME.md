@@ -3,7 +3,7 @@
 theme: default
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: https://cdn.discordapp.com/attachments/842705456413409321/883986238409932830/IMG_0262.jpg
+background: https://cdn.discordapp.com/attachments/755725610868932678/916030747201134713/ECA73FD4-ACA8-402C-B05D-430BED42A098.jpg
 # apply any windi css classes to the current slide
 class: 'text-center'
 # https://sli.dev/custom/highlighters.html
@@ -20,7 +20,7 @@ info: |
 download: true
 ---
 
-# 講者介紹
+# 自我介紹
 
 講者: Young
 
@@ -32,11 +32,14 @@ download: true
 </div>
 
 ---
+layout: image-right
+image: https://cdn.discordapp.com/attachments/755725610868932678/916029765364883486/6BB20C01-F96B-4A5E-9398-6022A2073E69.jpg
+---
 
 # About me
 
 我的中文名字叫王晨洋  
-Discord 裡面大家通常都叫我 Young  
+Discord 裡面大家都叫我 Young  
 
 目前高二 就讀台南高工資訊科  
 
