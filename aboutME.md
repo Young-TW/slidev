@@ -42,6 +42,7 @@ image: https://cdn.discordapp.com/attachments/755725610868932678/916029765364883
 Discord 裡面大家都叫我 Young  
 
 目前高二 就讀台南高工資訊科  
+同時也是網頁設計社社長  
 
 經常出沒的地方也是 Discord  
 歡迎大家來找我聊天  
