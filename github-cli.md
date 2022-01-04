@@ -72,6 +72,39 @@ img {
 
 ---
 
+# Command-line Interface (cli)
+
+人與電腦互動需要依靠介面 (Interface)  
+
+目前主流的作業系統都是使用 GUI (圖形使用者介面)  
+CLI 則是存在於終端機的使用者介面  
+使用 CLI 的好處是只要輸入指令就可以做到許多事  
+許多軟體工程師喜歡 CLI 另一個原因是因為不用操作滑鼠  
+節省了移動手的時間和力氣  
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+}
+
+p,span {
+  font-size: 26px;
+  line-height: 36px;
+}
+
+img {
+  width: 100px;
+}
+</style>
+
+---
+
 # 註冊 Github 帳號
 
 1. 在瀏覽器搜尋 Github
