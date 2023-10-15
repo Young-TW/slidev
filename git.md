@@ -35,9 +35,9 @@ download: true
 
 # Git 是甚麼?
 
-Git 是一種用來管理軟體版本的工具  
-目前許多開源的大型專案都保存在線上的 Git 服務  
-例如 Github  
+Git 是一種用來管理軟體版本的工具
+目前許多開源的大型專案都保存在線上的 Git 服務
+例如 Github
 
 ![](https://cdn.discordapp.com/attachments/711916752551804989/884681694693707846/0633dc249b85316.png)
 
@@ -48,7 +48,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
@@ -68,7 +68,7 @@ p {
 
 # 使用 Git 實現版本控制
 
-以下會介紹 Git 的在各平台的安裝方式以及使用方法  
+以下會介紹 Git 的在各平台的安裝方式以及使用方法
 
 ![](https://cdn.discordapp.com/attachments/711916752551804989/884681694693707846/0633dc249b85316.png)
 
@@ -91,7 +91,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
@@ -113,7 +113,7 @@ p {
 # Windows 下載和安裝 Git
 
 1. 在瀏覽器搜尋 Git
-2. 下載後打開檔案 
+2. 下載後打開檔案
 
 ![](https://cdn.discordapp.com/attachments/711916752551804989/884681694693707846/0633dc249b85316.png)
 
@@ -124,7 +124,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
@@ -143,7 +143,7 @@ li {
 
 # MacOS & linux 下載和安裝 Git
 
-用套件管理工具安裝  
+用套件管理工具安裝
 
 ```sh
 # apt
@@ -159,7 +159,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
@@ -173,9 +173,9 @@ li,p,span {
 
 # Windows Git 安裝時更改的地方
 
-到 `Configuring the terminal...` 時  
-選 `Use Windows' default console window`  
-然後就可以按下一步後安裝了  
+到 `Configuring the terminal...` 時
+選 `Use Windows' default console window`
+然後就可以按下一步後安裝了
 
 ![](https://media.discordapp.net/attachments/711916752551804989/885165072958226442/unknown.png)
 
@@ -186,7 +186,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
@@ -214,9 +214,9 @@ image: https://cdn.discordapp.com/attachments/711916752551804989/885169823951241
 1. 使用 `win + R` 輸入 cmd 開啟 Windows 終端機
 2. 輸入 `git` 確認 Git 成功安裝
 
-成功安裝好的話終端機會列出  
-可用的 Git 指令列表  
-再來就可以開始建立儲存庫了  
+成功安裝好的話終端機會列出
+可用的 Git 指令列表
+再來就可以開始建立儲存庫了
 
 
 <style>
@@ -226,7 +226,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
@@ -244,11 +244,11 @@ li,p {
 
 # 新增 Git repository
 
-1. 進入終端機  
+1. 進入終端機
 2. 建立並進到一個空的資料夾內  (mkdir & cd)
-3. 輸入 `git init`  
+3. 輸入 `git init`
 
-這樣你的 Git repository 就已經建立好了  
+這樣你的 Git repository 就已經建立好了
 
 ```sh
 mkdir gitTest
@@ -263,7 +263,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
@@ -278,17 +278,17 @@ li,p,span {
 
 # 在資料夾底下新增 README.md
 
-剛建好新的資料夾是空的  
-沒有檔案可以用來示範 Git  
-所以先新增一個 `README.md`  
+剛建好新的資料夾是空的
+沒有檔案可以用來示範 Git
+所以先新增一個 `README.md`
 
 ```sh
 # MacOS or Linux
 touch README.md
 ```
 
-Windows 因為沒有 touch 指令  
-所以只能打開檔案總管建立檔案  
+Windows 因為沒有 touch 指令
+所以只能打開檔案總管建立檔案
 
 <style>
 h1 {
@@ -297,7 +297,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
@@ -312,15 +312,15 @@ li,p,span {
 
 # Git add
 
-將檔案加入版本控制追蹤名單  
-使用方法:  
+將檔案加入版本控制追蹤名單
+使用方法:
 
 ```sh
 git add [檔案名稱]
 ```
 
-如果要把當前的目錄底下所有檔案  
-都加入版本控制的話可以使用  
+如果要把當前的目錄底下所有檔案
+都加入版本控制的話可以使用
 
 ```sh
 git add .
@@ -333,7 +333,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
@@ -348,15 +348,15 @@ p,span {
 
 # Git commit
 
-commit 可以把寫好並且有被添加(git add)  
-到版本管理的程式加入 Git 內  
+commit 可以把寫好並且有被添加(git add)
+到版本管理的程式加入 Git 內
 
 ```sh
 git commit -m "這是一個commit"
 ```
 
--m 代表新增 commit 中的標題  
-每個 commit 都可以包含標題和內文  
+-m 代表新增 commit 中的標題
+每個 commit 都可以包含標題和內文
 
 <style>
 h1 {
@@ -365,7 +365,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
@@ -381,7 +381,7 @@ layout: cover
 
 # Git 教學結束
 
-接下來會介紹並帶大家使用 Github  
+接下來會介紹並帶大家使用 Github
 
 <style>
 h1 {
@@ -390,7 +390,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 

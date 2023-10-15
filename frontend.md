@@ -35,8 +35,8 @@ download: true
 
 # 網頁前端是如何組成的
 
-網頁前端分為 HTML CSS Javascript 三種語言組成  
-注：HTML 和 CSS 並不算所謂的**程式**語言  
+網頁前端分為 HTML CSS Javascript 三種語言組成
+注：HTML 和 CSS 並不算所謂的**程式**語言
 
 ![](https://media.discordapp.net/attachments/890148284662964284/896133132359708722/unknown.png)
 
@@ -47,13 +47,13 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
 img {
   width: 600px;
-} 
+}
 
 p {
   font-size: 26px;
@@ -65,11 +65,11 @@ p {
 
 # HTML 是什麼？
 
-HTML 全名：超文本標記語言  
+HTML 全名：超文本標記語言
 
-是一種標記語言  
-裡面包含了各種功能的標籤  
-每個標籤都對應到網頁內的物件  
+是一種標記語言
+裡面包含了各種功能的標籤
+每個標籤都對應到網頁內的物件
 
 ```html
 <!DOCTYPE html>
@@ -87,7 +87,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
@@ -99,11 +99,11 @@ p,span {
 
 ---
 
-# 下載和安裝 vscode 
+# 下載和安裝 vscode
 
-1. 到 [vscode 官網](https://code.visualstudio.com/) 下載 vscode  
+1. 到 [vscode 官網](https://code.visualstudio.com/) 下載 vscode
 
-2. 安裝 vscode  
+2. 安裝 vscode
 
 <style>
 h1 {
@@ -112,7 +112,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
@@ -126,10 +126,10 @@ p,span,li {
 
 # HTML tag
 
-HTML 是由一個個的 tag 組成的  
-tag 的功能從連結外面的資源到頁面的物件都有  
-也有一些 tag 是拿來給設定值的  
-大部分的 tag 都會有開頭和結尾  
+HTML 是由一個個的 tag 組成的
+tag 的功能從連結外面的資源到頁面的物件都有
+也有一些 tag 是拿來給設定值的
+大部分的 tag 都會有開頭和結尾
 
 ```html
 <body></body>
@@ -147,7 +147,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
@@ -161,8 +161,8 @@ p,span {
 
 # HTML 沒有結尾的 tag
 
-少數的 HTML tag 沒有結尾  
-通常原因是內容只有單一個  
+少數的 HTML tag 沒有結尾
+通常原因是內容只有單一個
 例如 img
 
 ```html
@@ -176,7 +176,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
@@ -190,7 +190,7 @@ p,span {
 
 # HTML 的基礎結構
 
-最基本的 HTML 文件有三個 tag  
+最基本的 HTML 文件有三個 tag
 
 ```html
 <!DOCTYPE html>
@@ -201,8 +201,8 @@ p,span {
 </html>
 ```
 
-其中第一行 <!DOCTYPE html>  
-代表對瀏覽器聲明此文件為 HTML & HTML 的版本  
+其中第一行 <!DOCTYPE html>
+代表對瀏覽器聲明此文件為 HTML & HTML 的版本
 
 <style>
 h1 {
@@ -211,7 +211,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
@@ -225,9 +225,9 @@ p,span {
 
 # HTML head
 
-一份 HTML 文件內的 head 通常會用來放一些網頁內無法直接看見的內容  
-例如引入 CSS 或 JavaScirpt 檔案  
-或是一些基礎設定  
+一份 HTML 文件內的 head 通常會用來放一些網頁內無法直接看見的內容
+例如引入 CSS 或 JavaScirpt 檔案
+或是一些基礎設定
 
 ```html
 <!DOCTYPE html>
@@ -247,7 +247,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
@@ -261,15 +261,15 @@ p,span {
 
 # HTML head 常用標籤介紹
 
-head 裏面最常放的幾個 tag 有：  
+head 裏面最常放的幾個 tag 有：
 
 ```html
 <title> <link> <meta>
 ```
 
-其中 title 顧名思義就是網頁的標題  
-link 是要連結的 CSS  
-meta 則是頁面的一些設定 例如字元編碼  
+其中 title 顧名思義就是網頁的標題
+link 是要連結的 CSS
+meta 則是頁面的一些設定 例如字元編碼
 
 <style>
 h1 {
@@ -278,7 +278,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
@@ -292,9 +292,9 @@ p,span {
 
 # HTML body
 
-HTML 檔案的 body 就是網頁所見的內容  
-預設是由上而下 由左而右的排列  
-我們也可以用 CSS 來更改排列方法  
+HTML 檔案的 body 就是網頁所見的內容
+預設是由上而下 由左而右的排列
+我們也可以用 CSS 來更改排列方法
 
 ```html
 <!DOCTYPE html>
@@ -313,7 +313,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
@@ -327,9 +327,9 @@ p,span {
 
 # HTML body 常用標籤介紹
 
-body 內會用到的標籤有非常多  
-有些一看名稱就會知道功能  
-其中 h1 到 h6 分別為最大到最小的標題  
+body 內會用到的標籤有非常多
+有些一看名稱就會知道功能
+其中 h1 到 h6 分別為最大到最小的標題
 
 ```html
 <h1> <p> <a> <img> <video> <button>
@@ -342,7 +342,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
@@ -356,13 +356,13 @@ p,span {
 
 # HTML 包覆的概念
 
-HTML 的結構是一層一層疊上去的  
-最常看到用來包覆其他 tag 的就是 div  
+HTML 的結構是一層一層疊上去的
+最常看到用來包覆其他 tag 的就是 div
 
-div 類似於一個容器  
-可以放其他的東西在裡面  
-也可以幫網頁進行分區  
-以利後續開發  
+div 類似於一個容器
+可以放其他的東西在裡面
+也可以幫網頁進行分區
+以利後續開發
 
 ```html
 <div>
@@ -377,7 +377,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
@@ -397,7 +397,7 @@ p,span {
 </a>
 ```
 
-效果如下  
+效果如下
 
 ![](https://media.discordapp.net/attachments/711916752551804989/897650221033594930/unknown.png)
 
@@ -408,7 +408,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
@@ -433,7 +433,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
@@ -466,7 +466,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
@@ -489,10 +489,10 @@ img {
 
 # 為什麼不只用 HTML 來寫網頁？
 
-接下來會介紹 CSS 和為何需要 CSS  
-當我們寫 HTML 一段時間後會發現  
-我們雖然能夠呼叫 HTML 的 tag 到頁面上  
-但是卻不能加以排版或更改樣式  
+接下來會介紹 CSS 和為何需要 CSS
+當我們寫 HTML 一段時間後會發現
+我們雖然能夠呼叫 HTML 的 tag 到頁面上
+但是卻不能加以排版或更改樣式
 
 <style>
 h1 {
@@ -501,7 +501,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
@@ -515,16 +515,16 @@ p,span {
 
 # CSS 是什麼？
 
-CSS 全名：階層樣式表  
+CSS 全名：階層樣式表
 
-用來修飾 HTML 檔案  
-我們可以從 HTML 內引入 CSS  
+用來修飾 HTML 檔案
+我們可以從 HTML 內引入 CSS
 
 ```html
 <link rel="stylesheet" href="./style.css">
 ```
 
-通常這段會放在 HTML 的 Head 內  
+通常這段會放在 HTML 的 Head 內
 
 <style>
 h1 {
@@ -533,7 +533,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
@@ -547,7 +547,7 @@ p,span {
 
 # CSS 語法
 
-CSS 語法主要分為選擇器和修飾的內容  
+CSS 語法主要分為選擇器和修飾的內容
 
 ```css
  h1 {
@@ -563,7 +563,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
@@ -578,9 +578,9 @@ p,span {
 
 # CSS selecter
 
-CSS 的選擇器可以讓 CSS 去找到需要被修飾的 HTML code  
-這邊只介紹三種基本的選擇器  
-tag id class  
+CSS 的選擇器可以讓 CSS 去找到需要被修飾的 HTML code
+這邊只介紹三種基本的選擇器
+tag id class
 
 ```css
 h1{}
@@ -597,7 +597,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
@@ -611,7 +611,7 @@ p,span {
 
 # CSS select by tag
 
-我們先來了解最基礎的 CSS 要如何知道要修飾的對象  
+我們先來了解最基礎的 CSS 要如何知道要修飾的對象
 先來一段 HTML 配 CSS
 
 ```html
@@ -636,7 +636,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
@@ -650,8 +650,8 @@ p,span {
 
 # CSS select by class
 
-再來如果要用 class 那就要幫 tag 加上 class  
-在 tag 的開頭使用 class=""  
+再來如果要用 class 那就要幫 tag 加上 class
+在 tag 的開頭使用 class=""
 
 ```html
 <body>
@@ -675,7 +675,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
@@ -689,8 +689,8 @@ p,span {
 
 # CSS select by id
 
-可以用 class 理所當然也可以用 id  
-範例如下：  
+可以用 class 理所當然也可以用 id
+範例如下：
 
 ```html
 <body>
@@ -713,7 +713,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
@@ -727,7 +727,7 @@ p,span {
 
 # 呈現的效果
 
-剛剛三種方法做出來都會像下面的圖一樣  
+剛剛三種方法做出來都會像下面的圖一樣
 
 ![](https://cdn.discordapp.com/attachments/711916752551804989/896611419557072916/unknown.png)
 
@@ -738,7 +738,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
@@ -752,7 +752,7 @@ p,span {
 
 # CSS text-align
 
-想要讓文字左右移位就用 text-align 吧  
+想要讓文字左右移位就用 text-align 吧
 
 ## 我是 h2
 
@@ -762,7 +762,7 @@ h2 {
 }
 ```
 
-裡面填 center 後 h2 就會被移到畫面中間了  
+裡面填 center 後 h2 就會被移到畫面中間了
 
 <style>
 h1 {
@@ -771,7 +771,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
@@ -789,8 +789,8 @@ h2 {
 
 # CSS font-size
 
-CSS 調整字體大小可以用 font-size  
-單位常用px 也就是 pixel 的縮寫  
+CSS 調整字體大小可以用 font-size
+單位常用px 也就是 pixel 的縮寫
 
 ## 我是 h2
 
@@ -800,8 +800,8 @@ h2 {
 }
 ```
 
-這樣雖然 h2 照理來說比 h1 小  
-但是經過調整後會比 h1 大  
+這樣雖然 h2 照理來說比 h1 小
+但是經過調整後會比 h1 大
 
 <style>
 h1 {
@@ -810,7 +810,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
@@ -837,9 +837,9 @@ h2 {
 }
 ```
 
-CSS 內建了顏色的名稱可以直接調用  
-但是通常我們都會用16進位的色碼  
-也稱為 hex color  
+CSS 內建了顏色的名稱可以直接調用
+但是通常我們都會用16進位的色碼
+也稱為 hex color
 
 <style>
 h1 {
@@ -848,7 +848,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
@@ -867,8 +867,8 @@ h2 {
 
 # hex color
 
-十六進位的顏色  
-通常用於網頁上的按鈕和背景顏色等等  
+十六進位的顏色
+通常用於網頁上的按鈕和背景顏色等等
 
 ## 我是 h2
 
@@ -878,7 +878,7 @@ h2 {
 }
 ```
 
-有 RGB 三原色  
+有 RGB 三原色
 分別對應到六個16進位數的值
 
 <style>
@@ -888,7 +888,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
@@ -906,10 +906,10 @@ h2 {
 
 # 第三方的 CSS 的套件
 
-CSS 寫起來很容易會有重複的地方  
-所以有時候為了開發的效率和時間等等因素  
-常常會使用到 CSS 的套件  
-最常聽到的就是 Bootstrap  
+CSS 寫起來很容易會有重複的地方
+所以有時候為了開發的效率和時間等等因素
+常常會使用到 CSS 的套件
+最常聽到的就是 Bootstrap
 
 ![](https://cdn.discordapp.com/attachments/711916752551804989/896606698054230046/bootstrap-stack.png)
 
@@ -920,7 +920,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
@@ -939,10 +939,10 @@ img{
 
 # JavaScript 是什麼？
 
-JavaScript 是一種直譯的程式語言  
-可以用來寫網頁前端的功能  
-例如動畫 計數器 等等有互動性的小功能  
-因篇幅長度在此不會深入講解  
+JavaScript 是一種直譯的程式語言
+可以用來寫網頁前端的功能
+例如動畫 計數器 等等有互動性的小功能
+因篇幅長度在此不會深入講解
 
 <style>
 h1 {
@@ -951,7 +951,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
@@ -976,7 +976,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
@@ -990,7 +990,7 @@ p,span {
 
 # JavaScript 變數
 
-在 JavaScript 內宣告變數用 var  
+在 JavaScript 內宣告變數用 var
 
 ```js
 var str = "西瓜不要再嘲諷人了";
@@ -998,7 +998,7 @@ var str = "西瓜不要再嘲諷人了";
 console.log(str)
 ```
 
-效果如下：  
+效果如下：
 
 ```
 西瓜不要在嘲諷人了
@@ -1011,7 +1011,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
@@ -1025,9 +1025,9 @@ p,span {
 
 # json 格式
 
-json 格式是廣泛用於各種資料儲存  
-或是做為遊戲和應用程式等等的設定檔  
-因為檔案體積小和易讀等優點受到廣泛使用  
+json 格式是廣泛用於各種資料儲存
+或是做為遊戲和應用程式等等的設定檔
+因為檔案體積小和易讀等優點受到廣泛使用
 
 ```json
 {
@@ -1044,7 +1044,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
@@ -1058,11 +1058,11 @@ p,span {
 
 # node.js
 
-node.js 讓前端工程師使用自己熟悉的 js 程式語言  
-來開發網頁的後端  
-網頁後端的工作有很多  
-例如社群網站的貼文 按讚 留言等等功能  
-都是由後端來記錄和計算  
+node.js 讓前端工程師使用自己熟悉的 js 程式語言
+來開發網頁的後端
+網頁後端的工作有很多
+例如社群網站的貼文 按讚 留言等等功能
+都是由後端來記錄和計算
 
 ![](https://media.discordapp.net/attachments/711916752551804989/896714641969905694/nodejs-logo.png)
 
@@ -1073,7 +1073,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
@@ -1091,9 +1091,9 @@ img {
 
 # 前端框架介紹
 
-網頁前端除了直接手寫以外  
-也有許多開發框架可以使用  
-例如 React,Vue,Angular 等等  
+網頁前端除了直接手寫以外
+也有許多開發框架可以使用
+例如 React,Vue,Angular 等等
 
 ![](https://cdn.discordapp.com/attachments/711916752551804989/896727041351774229/R.png)
 
@@ -1104,7 +1104,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
@@ -1126,9 +1126,9 @@ image: https://media.discordapp.net/attachments/711916752551804989/8968566920321
 
 # React
 
-下一節社課教學內容是 React  
-講者是我們的副社小西瓜  
-敬請期待  
+下一節社課教學內容是 React
+講者是我們的副社小西瓜
+敬請期待
 
 <style>
 h1 {
@@ -1137,7 +1137,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 
@@ -1155,7 +1155,7 @@ img {
 
 # 感謝聆聽
 
-講者： Young 地點：台南高工  
+講者： Young 地點：台南高工
 
 <style>
 h1 {
@@ -1164,7 +1164,7 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   font-size: 72px;
   line-height: 280px;
