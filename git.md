@@ -12,7 +12,7 @@ highlighter: shiki
 lineNumbers: false
 # some information about the slides, markdown enabled
 info: |
-  ## Git
+  ## git
   講者: Young 地點: 建國中學
 
   Learn more at [Hackmd](https://hackmd.io/@young-tw/BJM_N46QY)
@@ -20,7 +20,7 @@ info: |
 download: true
 ---
 
-# Git
+# git
 
 講者: Young 地點: 建國中學
 
@@ -33,11 +33,11 @@ download: true
 
 ---
 
-# Git 是甚麼?
+# git 是甚麼?
 
-Git 是一種用來管理軟體版本的工具
-目前許多開源的大型專案都保存在線上的 Git 服務
-例如 Github
+git 是一種用來管理軟體版本的工具
+目前許多開源的大型專案都保存在線上的 git 服務
+例如 GitHub
 
 ![](https://cdn.discordapp.com/attachments/711916752551804989/884681694693707846/0633dc249b85316.png)
 
@@ -66,9 +66,9 @@ p {
 
 ---
 
-# 使用 Git 實現版本控制
+# 使用 git 實現版本控制
 
-以下會介紹 Git 的在各平台的安裝方式以及使用方法
+以下會介紹 git 的在各平台的安裝方式以及使用方法
 
 ![](https://cdn.discordapp.com/attachments/711916752551804989/884681694693707846/0633dc249b85316.png)
 
@@ -110,9 +110,9 @@ p {
 
 ---
 
-# Windows 下載和安裝 Git
+# Windows 下載和安裝 git
 
-1. 在瀏覽器搜尋 Git
+1. 在瀏覽器搜尋 git
 2. 下載後打開檔案
 
 ![](https://cdn.discordapp.com/attachments/711916752551804989/884681694693707846/0633dc249b85316.png)
@@ -141,7 +141,7 @@ li {
 
 ---
 
-# MacOS & linux 下載和安裝 Git
+# macOS & Linux 下載和安裝 git
 
 用套件管理工具安裝
 
@@ -171,7 +171,7 @@ li,p,span {
 
 ---
 
-# Windows Git 安裝時更改的地方
+# Windows git 安裝時更改的地方
 
 到 `Configuring the terminal...` 時
 選 `Use Windows' default console window`
@@ -209,13 +209,13 @@ image: https://cdn.discordapp.com/attachments/711916752551804989/885169823951241
 
 
 # 打開終端機確認
-# Git 安裝成功
+# git 安裝成功
 
 1. 使用 `win + R` 輸入 cmd 開啟 Windows 終端機
-2. 輸入 `git` 確認 Git 成功安裝
+2. 輸入 `git` 確認 git 成功安裝
 
 成功安裝好的話終端機會列出
-可用的 Git 指令列表
+可用的 git 指令列表
 再來就可以開始建立儲存庫了
 
 
@@ -242,13 +242,13 @@ li,p {
 
 ---
 
-# 新增 Git repository
+# 新增 git repository
 
 1. 進入終端機
 2. 建立並進到一個空的資料夾內  (mkdir & cd)
 3. 輸入 `git init`
 
-這樣你的 Git repository 就已經建立好了
+這樣你的 git repository 就已經建立好了
 
 ```sh
 mkdir gitTest
@@ -279,7 +279,7 @@ li,p,span {
 # 在資料夾底下新增 README.md
 
 剛建好新的資料夾是空的
-沒有檔案可以用來示範 Git
+沒有檔案可以用來示範 git
 所以先新增一個 `README.md`
 
 ```sh
@@ -310,7 +310,7 @@ li,p,span {
 
 ---
 
-# Git add
+# git add
 
 將檔案加入版本控制追蹤名單
 使用方法:
@@ -346,7 +346,7 @@ p,span {
 
 ---
 
-# Git commit
+# git commit
 
 commit 可以把寫好並且有被添加(git add)
 到版本管理的程式加入 Git 內
@@ -379,9 +379,9 @@ p,span {
 layout: cover
 ---
 
-# Git 教學結束
+# git 教學結束
 
-接下來會介紹並帶大家使用 Github
+接下來會介紹並帶大家使用 GitHub
 
 <style>
 h1 {
