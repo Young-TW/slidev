@@ -79,6 +79,3 @@ typings/
 
 # macOS
 .DS_Store
-
-# Presentation decks (kept local only)
-slides/
