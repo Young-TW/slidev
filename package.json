@@ -3,9 +3,9 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "slidev build",
-    "dev": "slidev --open",
-    "export": "slidev export"
+    "build": "slidev build slides/slides.md",
+    "dev": "slidev slides/slides.md --open",
+    "export": "slidev export slides/slides.md"
   },
   "dependencies": {
     "@slidev/cli": "^0.49.0-beta.4",

@@ -9,20 +9,25 @@ default:
 install:
     pnpm install
 
-# 啟動開發伺服器並開啟瀏覽器
-dev:
-    pnpm dev
+# 列出 slides/ 底下所有簡報
+list-decks:
+    @ls slides/*.md | sed 's|slides/||; s|\.md$||'
 
-# 建置靜態網站到 dist/
-build:
-    pnpm build
+# 啟動指定簡報的開發伺服器並開啟瀏覽器，例：just dev git（預設 slides）
+dev deck="slides":
+    pnpm exec slidev "slides/{{deck}}.md" --open
 
-# 匯出為 PDF
-export:
-    pnpm export
+# 建置指定簡報到 dist/，例：just build git（預設 slides）
+build deck="slides":
+    pnpm exec slidev build "slides/{{deck}}.md"
+
+# 將指定簡報匯出為 PDF，例：just pdf git（預設 slides）
+pdf deck="slides":
+    pnpm exec slidev export "slides/{{deck}}.md"
 
 # 預覽建置後的成果
-preview: build
+preview deck="slides":
+    just build {{deck}}
     pnpm exec vite preview --outDir dist
 
 # 清除建置產物與快取
